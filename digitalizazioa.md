@@ -1,9 +1,13 @@
+---
+layout: page
+title: Digitalizazioa
+---
 # Digitalizazioa - Proiektuaren Dokumentazioa
 
 ## 1. Planifikazioaren Digitalizazioa
 
 Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kudeatzeko, hasierako planifikazioa digitalizatu dugu. Horretarako, **GitHub Projects** tresna erabili dugu tablero birtual bat sortuz. Tablero honetan, ataza bakoitza bere egoeraren arabera (*To do*, *In progress*, *Done*) eta dagokion asignaturaren arabera antolatu da.
-
+    
 *Hemen planifikazioaren irudiak adjuntatu ditzakezu:*
 
 ![Planifikazioaren irudia 1](img/planifikazioa1.png)

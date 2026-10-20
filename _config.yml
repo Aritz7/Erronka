@@ -1,0 +1,10 @@
+title: My Documentation Site
+theme: minima
+# The following line is optional but helps if things don't show up
+header_pages:
+  - README.md
+  - datubasea.md
+  - markatze.md
+  - digitalizazioa.md
+  - sareak.md
+  - sistemak.md
