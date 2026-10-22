@@ -1,3 +1,7 @@
+---
+layout: home
+title: Erronka
+---
 # Erronka
 # Dokumentazio Webgunea
 

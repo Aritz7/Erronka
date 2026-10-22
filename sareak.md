@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sareak planifikatzea
+title: Sareak
 ---
 # Sareak - Sareen Planifikazioa eta Kodifikazioa
 
