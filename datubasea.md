@@ -62,18 +62,17 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 ---
 
 ### 2.3. Teknologia Gaitzaile Digitalak (TGD / THD)
-Eraldaketa digitala ahalbidetzen duten eta gaitasun zein negozio-eredu berriak garatzen laguntzen duten puntako teknologiak dira.
-
-**TGD nagusiak:**
-1. **Gauzen Interneta (IoT):** Gailu fisikoak Internetera konektatzea.
-2. **Adimen Artifiziala (IA):** Makinek ikasi eta erabakiak hartzeko gaitasuna.
-3. **Big Data:** Datu-bolumen handien analisia.
-4. **Cloud Computing:** Konputazioa eta biltegiratzea hodeian.
-5. **Zibersegurtasuna:** Sistemak eta datuak mehatxuetatik babestea.
-6. **Errealitate Birtuala eta Areagotua (VR/AR):** Esperientzia murgiltzaileak.
-7. **Beste batzuk:** Blockchain, 5G, Robotika, 3D Inprimaketa eta Biometria.
-
-**Ezaugarri nagusiak:** Moldakortasuna, automatizazioa, interkonexioa, eskalagarritasuna eta eraginkortasunaren hobekuntza.
+**Plan** : ( IDplan, name, price, description )
+**Subscription** : ( IDsubscription, paying method, renew type, duration, date start, IDplan )
+**Users** : ( IDuser, Name, password, date of birth, date of creation, email, IDsubscription, IDrol )
+**Rol** : ( IDrol, Name, Access type )
+**Content** : ( IDcontent, title, minimun age, duration, sumary )
+**Film** : ( IDcontent )
+**Documental** : ( IDcontent )
+**Episodes** : ( IDcontent, IDseason )
+**Serie / season** : ( IDseason, title )
+**Content + rol** : ( IDrol, IDcontent )
+**Content + users** : ( IDusers, IDcontent, time stamp, stop mark, feedback ) <mark><u>IDrol</u></mark>
 
 ---
 
