@@ -2,8 +2,9 @@
 layout: page
 title: Sistemak
 ---
+#Sistema eragileak ezartzea
 <div align="left">
-<img src="media/image46.png" alt="Azala" width="600" style="max-width:100%;">
+<img src="img/image46.png" alt="Azala" width="600" style="max-width:100%;">
 </div>
 
 # Aurkibidea
@@ -70,7 +71,7 @@ Hasteko, zerbitzariarentzat zein software erabiliko dugun aukeratuko dugu. Makin
 Honekin hasteko, VirtualBox-en sartu eta makina berri bat sortuko dugu.
 
 <div align="left">
-<img src="media/image18.png" alt="Irudia: Honekin hasteko, VirtualBox-en sartu eta makina berri bat sortuko dugu" width="468" style="max-width:100%;">
+<img src="img/image18.png" alt="Irudia: Honekin hasteko, VirtualBox-en sartu eta makina berri bat sortuko dugu" width="468" style="max-width:100%;">
 </div>
 
 </div>
