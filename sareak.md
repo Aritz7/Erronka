@@ -8,8 +8,19 @@ Atal honetan, Sareak moduluan landutako plangintza, kableak lortzeko prozesua et
 
 ---
 
-## 1. Materiala eta Kableak
+## 1. Materiala, Kableak eta Patch Panela
 Prozesuari hasiera emateko, beharrezko materialak eta kableak lortu eta kokatu ditugu (*lortu/kokatu*), azpiegitura fisikoaren oinarriak ezartzeko.
+
+![KABLEAREN IRUDIA](img/cables.jpg)
+
+Horren ondoren, kableatze-lanak osatu ditugu:
+- **Patch Panel-ean kableatzea:** Kableak patch panel-ean Behar bezala konektatu eta antolatu ditugu.
+
+![KABLEA PATCH-PANELEAN](img/cablespatch.jpg)
+
+- **Kable emea (RJ45 Keystone):** Era berean, kableatze hori kable/konektore eme bati lotu zaio, sare-puntuaren lotura fisikoa egoki uzteko.
+
+![KABLE HEMBRA](img/cablehembra.jpg)
 
 ---
 
@@ -39,11 +50,9 @@ Matea osoa (ASCII pasahitza + CRC) transmisiorako prest utzi dugu.
 ---
 
 ## 4. Modulazio Teknologiak
-Lortutako kate osoa (ASCII testua + CRC) modulazio digital ezberdinetara igaro dugu:
+Lortutako kate osoa (ASCII testua + CRC) modulazio digital **PSK(2) ASK(2) FSK(2)**-ra pasatu dugu:
 
-* **ASK(2)** (*Amplitude-Shift Keying*)
-* **PSK(2)** (*Phase-Shift Keying*)
-* **FSK(2)** (*Frequency-Shift Keying*)
+![PSKASKFSK](img/PSKASKFSK.jpg)
 
 ---
 
@@ -52,3 +61,5 @@ Azkenik, seinalea hobeto garraiatzeko eta sinkronizazioa bermatzeko, informazio 
 
 * **Manchester Normala**
 * **Manchester Diferentziala**
+
+![MANCHESTER](img/manchester.jpg)
