@@ -81,7 +81,7 @@ Honekin hasteko, VirtualBox-en sartu eta makina berri bat sortuko dugu.
 Lehenik, makinaren izena, ISO-a eta bertsioa aukeratu beharko ditugu.
 
 <div align="left">
-<img src="media/image79.png" alt="Irudia: Lehenik, makinaren izena, ISO-a eta bertsioa aukeratu beharko ditugu" width="600" style="max-width:100%;">
+<img src="img/image79.png" alt="Irudia: Lehenik, makinaren izena, ISO-a eta bertsioa aukeratu beharko ditugu" width="600" style="max-width:100%;">
 </div>
 
 </div>
@@ -91,11 +91,11 @@ Lehenik, makinaren izena, ISO-a eta bertsioa aukeratu beharko ditugu.
 Gero, hardware-konfigurazioak ezarri behar dira, hala nola RAM-a, CPU-a eta biltegiratzea.
 
 <div align="left">
-<img src="media/image75.png" alt="Irudia: Gero, hardware-konfigurazioak ezarri behar dira, hala nola RAM-a, CPU-a eta biltegiratzea" width="600" style="max-width:100%;">
+<img src="img/image75.png" alt="Irudia: Gero, hardware-konfigurazioak ezarri behar dira, hala nola RAM-a, CPU-a eta biltegiratzea" width="600" style="max-width:100%;">
 </div>
 
 <div align="left">
-<img src="media/image21.png" alt="Irudia: Gero, hardware-konfigurazioak ezarri behar dira, hala nola RAM-a, CPU-a eta biltegiratzea" width="550" style="max-width:100%;">
+<img src="img/image21.png" alt="Irudia: Gero, hardware-konfigurazioak ezarri behar dira, hala nola RAM-a, CPU-a eta biltegiratzea" width="550" style="max-width:100%;">
 </div>
 
 </div>
@@ -107,7 +107,7 @@ Hau eginda, makina abiarazteko prest egongo da.
 Abiarazi ondoren, lehenengo gauza hizkuntza aukeratzea galdetuko dizu (ISO-aren arabera aldatzen da).
 
 <div align="left">
-<img src="media/image33.png" alt="Irudia: Abiarazi ondoren, lehenengo gauza hizkuntza aukeratzea galdetuko dizu (ISO-aren…" width="520" style="max-width:100%;">
+<img src="img/image33.png" alt="Irudia: Abiarazi ondoren, lehenengo gauza hizkuntza aukeratzea galdetuko dizu (ISO-aren…" width="520" style="max-width:100%;">
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Gero bertsioa aukeratuko dugu; gure kasuan, Standard bertsioa.
 Bertsio bakoitzak bere eskakizunak eta ezberdintasunak ditu. Core bertsioak, alde batetik, ez dauka interfaze grafikorik, terminal huts bat baizik. Datacenter bertsioa askoz garestiagoa da, eta tarifa gailuak dituen nukleo bakoitzeko ordaintzen da, baina ez dauka mugarik birtualizazioan edo kudea dezakeen hardware kantitatean. Standard bertsioa, berriz, lizentzia ordaindu eta kito.
 
 <div align="left">
-<img src="media/image67.png" alt="Irudia: Bertsio bakoitzak bere eskakizunak eta ezberdintasunak ditu. Core bertsioak, alde…" width="499" style="max-width:100%;">
+<img src="img/image67.png" alt="Irudia: Bertsio bakoitzak bere eskakizunak eta ezberdintasunak ditu. Core bertsioak, alde…" width="499" style="max-width:100%;">
 </div>
 
 </div>
@@ -131,7 +131,7 @@ Sistemaren lizentzia eskatuko dizu; ez daukazula aukeratu beharko duzu. Gero, ba
 Orri honetan, instalatzeko aukera hautatu beharko duzu, ez dugulako lehendik instalatutako sistemarik.
 
 <div align="left">
-<img src="media/image6.png" alt="Irudia: Orri honetan, instalatzeko aukera hautatu beharko duzu, ez dugulako lehendik…" width="472" style="max-width:100%;">
+<img src="img/image6.png" alt="Irudia: Orri honetan, instalatzeko aukera hautatu beharko duzu, ez dugulako lehendik…" width="472" style="max-width:100%;">
 </div>
 
 </div>
@@ -141,7 +141,7 @@ Orri honetan, instalatzeko aukera hautatu beharko duzu, ez dugulako lehendik ins
 Orain, sistema zein gailutan instalatu nahi duzun aukeratu beharko duzu. Honekin soilik EFI partizioa sortuko da diska horretan, gure sistema eragilea hau erabilita abiarazteko.
 
 <div align="left">
-<img src="media/image4.png" alt="Irudia: Orain, sistema zein gailutan instalatu nahi duzun aukeratu beharko duzu. Honekin…" width="385" style="max-width:100%;">
+<img src="img/image4.png" alt="Irudia: Orain, sistema zein gailutan instalatu nahi duzun aukeratu beharko duzu. Honekin…" width="385" style="max-width:100%;">
 </div>
 
 </div>
@@ -151,7 +151,7 @@ Orain, sistema zein gailutan instalatu nahi duzun aukeratu beharko duzu. Honekin
 Eta pantaila honetan, instalazioa amaitu arte itxaron besterik ez duzu egin behar.
 
 <div align="left">
-<img src="media/image25.png" alt="Irudia: Eta pantaila honetan, instalazioa amaitu arte itxaron besterik ez duzu egin behar" width="414" style="max-width:100%;">
+<img src="img/image25.png" alt="Irudia: Eta pantaila honetan, instalazioa amaitu arte itxaron besterik ez duzu egin behar" width="414" style="max-width:100%;">
 </div>
 
 </div>
@@ -167,11 +167,11 @@ Gure zerbitzariak ondo funtzionatzeko oinarrizko konfigurazio batzuk behar ditu.
 Lehenik, IP finko bat ezarriko dugu. Ireki "Configuración" > "Red e internet" > "Ethernet" > "Asignación IP" > "Manual", eta jarri nahi duzun IP-a. Ez badakizu zein den Gateway-aren IP-a, ireki cmd eta idatzi hau:
 
 <div align="left">
-<img src="media/image94.png" alt="Irudia: Lehenik, IP finko bat ezarriko dugu. Ireki Configuración > Red e internet > Ethernet >…" width="600" style="max-width:100%;">
+<img src="img/image94.png" alt="Irudia: Lehenik, IP finko bat ezarriko dugu. Ireki Configuración > Red e internet > Ethernet >…" width="600" style="max-width:100%;">
 </div>
 
 <div align="left">
-<img src="media/image61.png" alt="Irudia: Lehenik, IP finko bat ezarriko dugu. Ireki Configuración > Red e internet > Ethernet >…" width="384" style="max-width:100%;">
+<img src="img/image61.png" alt="Irudia: Lehenik, IP finko bat ezarriko dugu. Ireki Configuración > Red e internet > Ethernet >…" width="384" style="max-width:100%;">
 </div>
 
 </div>
@@ -185,7 +185,7 @@ Pertsona bat baino gehiagoko lan-eremu batean, denek erabiltzaile bera izatea ka
 Hau egiteko, sakatu `Win+X` eta ireki "Administración de equipos".
 
 <div align="left">
-<img src="media/image26.png" alt="Irudia: Hau egiteko, sakatu Win+X eta ireki Administración de equipos" width="260" style="max-width:100%;">
+<img src="img/image26.png" alt="Irudia: Hau egiteko, sakatu Win+X eta ireki Administración de equipos" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -195,7 +195,7 @@ Hau egiteko, sakatu `Win+X` eta ireki "Administración de equipos".
 Gero, joan "Usuarios y grupos locales" atalera eta, bertan, "Usuarios" karpetara.
 
 <div align="left">
-<img src="media/image15.png" alt="Irudia: Gero, joan Usuarios y grupos locales atalera eta, bertan, Usuarios karpetara" width="138" style="max-width:100%;">
+<img src="img/image15.png" alt="Irudia: Gero, joan Usuarios y grupos locales atalera eta, bertan, Usuarios karpetara" width="138" style="max-width:100%;">
 </div>
 
 </div>
@@ -205,7 +205,7 @@ Gero, joan "Usuarios y grupos locales" atalera eta, bertan, "Usuarios" karpetara
 Barruan, eskuineko klika erabilita, "Usuario nuevo" sortuko dugu.
 
 <div align="left">
-<img src="media/image19.png" alt="Irudia: Barruan, eskuineko klika erabilita, Usuario nuevo sortuko dugu" width="260" style="max-width:100%;">
+<img src="img/image19.png" alt="Irudia: Barruan, eskuineko klika erabilita, Usuario nuevo sortuko dugu" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -215,7 +215,7 @@ Barruan, eskuineko klika erabilita, "Usuario nuevo" sortuko dugu.
 Izen bat emango diozu; gainerakoa aukerakoa da, baina pasahitza jartzea gomendatzen da. Guk horrela egingo dugu.
 
 <div align="left">
-<img src="media/image74.png" alt="Irudia: Izen bat emango diozu; gainerakoa aukerakoa da, baina pasahitza jartzea gomendatzen…" width="260" style="max-width:100%;">
+<img src="img/image74.png" alt="Irudia: Izen bat emango diozu; gainerakoa aukerakoa da, baina pasahitza jartzea gomendatzen…" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -225,7 +225,7 @@ Izen bat emango diozu; gainerakoa aukerakoa da, baina pasahitza jartzea gomendat
 Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bidez baimen ezberdinak emateko. Horretarako, leiho berean, joan "Grupos" atalera.
 
 <div align="left">
-<img src="media/image65.png" alt="Irudia: Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bidez…" height="222" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image13.png" alt="Irudia: Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bidez…" height="222" style="max-width:100%;">
+<img src="img/image65.png" alt="Irudia: Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bidez…" height="222" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image13.png" alt="Irudia: Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bidez…" height="222" style="max-width:100%;">
 </div>
 
 </div>
@@ -235,7 +235,7 @@ Erabiltzaileak sortu ondoren, taldeak sortu beharko ditugu, bakoitzari talde bid
 Taldeei izena eman eta bertan aukeratu ahal duzu nor egongo den talde bakoitzean.
 
 <div align="left">
-<img src="media/image49.png" alt="Irudia: Taldeei izena eman eta bertan aukeratu ahal duzu nor egongo den talde bakoitzean" height="222" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image5.png" alt="Irudia: Taldeei izena eman eta bertan aukeratu ahal duzu nor egongo den talde bakoitzean" height="222" style="max-width:100%;">
+<img src="img/image49.png" alt="Irudia: Taldeei izena eman eta bertan aukeratu ahal duzu nor egongo den talde bakoitzean" height="222" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image5.png" alt="Irudia: Taldeei izena eman eta bertan aukeratu ahal duzu nor egongo den talde bakoitzean" height="222" style="max-width:100%;">
 </div>
 
 </div>
@@ -251,7 +251,7 @@ Lehenik, pasahitz-arauak aplikatuko ditugu, beste inork gure erabiltzailea erabi
 Ireki "Directiva de seguridad local".
 
 <div align="left">
-<img src="media/image56.png" alt="Irudia: Ireki Directiva de seguridad local" width="299" style="max-width:100%;">
+<img src="img/image56.png" alt="Irudia: Ireki Directiva de seguridad local" width="299" style="max-width:100%;">
 </div>
 
 </div>
@@ -261,11 +261,11 @@ Ireki "Directiva de seguridad local".
 Bilatu "Directivas de cuenta" > "Directivas de contraseñas"; hemen dituzu pasahitzentzako ezarpen guztiak. Kasu honetan, konplexutasun minimoa eta luzera minimoa aldatuko ditugu, erabiltzaileak ez beste inork pasahitza jakin ez dezan.
 
 <div align="left">
-<img src="media/image7.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" width="600" style="max-width:100%;">
+<img src="img/image7.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" width="600" style="max-width:100%;">
 </div>
 
 <div align="left">
-<img src="media/image12.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" height="132" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image63.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" height="132" style="max-width:100%;">
+<img src="img/image12.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" height="132" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image63.png" alt="Irudia: Bilatu Directivas de cuenta > Directivas de contraseñas; hemen dituzu pasahitzentzako…" height="132" style="max-width:100%;">
 </div>
 
 </div>
@@ -275,7 +275,7 @@ Bilatu "Directivas de cuenta" > "Directivas de contraseñas"; hemen dituzu pasah
 "Directivas de bloqueo de cuenta" atalean, pasahitz-hutsegite kopuru maximo bat ezarriko dugu; erabiltzailea ez den norbaitek behin eta berriz huts egiten badu, segurtasunagatik kontua blokeatu egingo da.
 
 <div align="left">
-<img src="media/image3.png" alt="Irudia: Directivas de bloqueo de cuenta atalean, pasahitz-hutsegite kopuru maximo bat ezarriko…" width="400" style="max-width:100%;">
+<img src="img/image3.png" alt="Irudia: Directivas de bloqueo de cuenta atalean, pasahitz-hutsegite kopuru maximo bat ezarriko…" width="400" style="max-width:100%;">
 </div>
 
 </div>
@@ -289,7 +289,7 @@ Horretarako, bilatu baimen hauek ezarri nahi dituzun unitatea edo karpeta. Gure 
 Karpeta kokatu ondoren, egin eskuineko klik eta ireki "Propiedades".
 
 <div align="left">
-<img src="media/image41.png" alt="Irudia: Karpeta kokatu ondoren, egin eskuineko klik eta ireki Propiedades" width="279" style="max-width:100%;">
+<img src="img/image41.png" alt="Irudia: Karpeta kokatu ondoren, egin eskuineko klik eta ireki Propiedades" width="279" style="max-width:100%;">
 </div>
 
 </div>
@@ -299,7 +299,7 @@ Karpeta kokatu ondoren, egin eskuineko klik eta ireki "Propiedades".
 Joan "Seguridad" atalera eta sakatu "Editar" baimenak kudeatzeko tresnara sartzeko.
 
 <div align="left">
-<img src="media/image57.png" alt="Irudia: Joan Seguridad atalera eta sakatu Editar baimenak kudeatzeko tresnara sartzeko" width="260" style="max-width:100%;">
+<img src="img/image57.png" alt="Irudia: Joan Seguridad atalera eta sakatu Editar baimenak kudeatzeko tresnara sartzeko" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -309,7 +309,7 @@ Joan "Seguridad" atalera eta sakatu "Editar" baimenak kudeatzeko tresnara sartze
 Nahi duzun erabiltzailea aurkitzen ez baduzu, bere baimenak "Users" taldean lehenetsita daudelako da. Ikaslearen baimenak espezifikoki kudeatzeko, "Agregar" botoiarekin gehitu beharko dugu.
 
 <div align="left">
-<img src="media/image53.png" alt="Irudia: Nahi duzun erabiltzailea aurkitzen ez baduzu, bere baimenak Users taldean lehenetsita…" width="260" style="max-width:100%;">
+<img src="img/image53.png" alt="Irudia: Nahi duzun erabiltzailea aurkitzen ez baduzu, bere baimenak Users taldean lehenetsita…" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -319,7 +319,7 @@ Nahi duzun erabiltzailea aurkitzen ez baduzu, bere baimenak "Users" taldean lehe
 Erabiltzailearen izena idaztearekin nahikoa da; "Comprobar nombres" erabilita, bere ibilbidea automatikoki idatziko du.
 
 <div align="left">
-<img src="media/image27.png" alt="Irudia: Erabiltzailearen izena idaztearekin nahikoa da; Comprobar nombres erabilita, bere…" width="337" style="max-width:100%;">
+<img src="img/image27.png" alt="Irudia: Erabiltzailearen izena idaztearekin nahikoa da; Comprobar nombres erabilita, bere…" width="337" style="max-width:100%;">
 </div>
 
 </div>
@@ -329,7 +329,7 @@ Erabiltzailearen izena idaztearekin nahikoa da; "Comprobar nombres" erabilita, b
 Hau eginda, zerrendan agertu beharko litzateke, eta beheko atalean bere baimenak. Aldatu zure beharren arabera.
 
 <div align="left">
-<img src="media/image14.png" alt="Irudia: Hau eginda, zerrendan agertu beharko litzateke, eta beheko atalean bere baimenak.…" width="277" style="max-width:100%;">
+<img src="img/image14.png" alt="Irudia: Hau eginda, zerrendan agertu beharko litzateke, eta beheko atalean bere baimenak.…" width="277" style="max-width:100%;">
 </div>
 
 </div>
@@ -339,7 +339,7 @@ Hau eginda, zerrendan agertu beharko litzateke, eta beheko atalean bere baimenak
 Orain, ikasle gisa, ez duzu baimenik izango `inetpub` karpetan aldaketarik egiteko.
 
 <div align="left">
-<img src="media/image77.png" alt="Irudia: Orain, ikasle gisa, ez duzu baimenik izango inetpub karpetan aldaketarik egiteko" width="388" style="max-width:100%;">
+<img src="img/image77.png" alt="Irudia: Orain, ikasle gisa, ez duzu baimenik izango inetpub karpetan aldaketarik egiteko" width="388" style="max-width:100%;">
 </div>
 
 </div>
@@ -353,7 +353,7 @@ Sistema batean erabiltzaile bat baino gehiago daudenean, garrantzitsua da bakoit
 Hau ezartzeko, fitxategi-arakatzailean ("Explorador de archivos") joan zure diskora.
 
 <div align="left">
-<img src="media/image60.png" alt="Irudia: Hau ezartzeko, fitxategi-arakatzailean (Explorador de archivos) joan zure diskora" width="306" style="max-width:100%;">
+<img src="img/image60.png" alt="Irudia: Hau ezartzeko, fitxategi-arakatzailean (Explorador de archivos) joan zure diskora" width="306" style="max-width:100%;">
 </div>
 
 </div>
@@ -363,7 +363,7 @@ Hau ezartzeko, fitxategi-arakatzailean ("Explorador de archivos") joan zure disk
 Ireki "Propiedades" > "Cuota…".
 
 <div align="left">
-<img src="media/image34.png" alt="Irudia: Ireki Propiedades > Cuota…" width="277" style="max-width:100%;">
+<img src="img/image34.png" alt="Irudia: Ireki Propiedades > Cuota…" width="277" style="max-width:100%;">
 </div>
 
 </div>
@@ -373,7 +373,7 @@ Ireki "Propiedades" > "Cuota…".
 Gaitu kuota-administrazioa eta kudeatu mugak zure gustura.
 
 <div align="left">
-<img src="media/image24.png" alt="Irudia: Gaitu kuota-administrazioa eta kudeatu mugak zure gustura" width="260" style="max-width:100%;">
+<img src="img/image24.png" alt="Irudia: Gaitu kuota-administrazioa eta kudeatu mugak zure gustura" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -391,7 +391,7 @@ Hasteko, diskak gehitu behar ditugu gure makinara. VirtualBox-en egiteko, honela
 "Medio" dagoen lekura joan eta aukeratu disko berria sortzea.
 
 <div align="left">
-<img src="media/image84.png" alt="Irudia: Medio dagoen lekura joan eta aukeratu disko berria sortzea" width="260" style="max-width:100%;">
+<img src="img/image84.png" alt="Irudia: Medio dagoen lekura joan eta aukeratu disko berria sortzea" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -401,7 +401,7 @@ Hasteko, diskak gehitu behar ditugu gure makinara. VirtualBox-en egiteko, honela
 Orain, honen izena eta edukiera aukeratzeko aukera emango dizu. Horrelako 3 sortu gutxienez.
 
 <div align="left">
-<img src="media/image37.png" alt="Irudia: Orain, honen izena eta edukiera aukeratzeko aukera emango dizu. Horrelako 3 sortu…" width="315" style="max-width:100%;">
+<img src="img/image37.png" alt="Irudia: Orain, honen izena eta edukiera aukeratzeko aukera emango dizu. Horrelako 3 sortu…" width="315" style="max-width:100%;">
 </div>
 
 </div>
@@ -411,7 +411,7 @@ Orain, honen izena eta edukiera aukeratzeko aukera emango dizu. Horrelako 3 sort
 Orain makinan sartuko ditugu.
 
 <div align="left">
-<img src="media/image36.png" alt="Irudia: Orain makinan sartuko ditugu" width="260" style="max-width:100%;">
+<img src="img/image36.png" alt="Irudia: Orain makinan sartuko ditugu" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -421,7 +421,7 @@ Orain makinan sartuko ditugu.
 Sakatu "Almacenamiento" > "Añadir disco".
 
 <div align="left">
-<img src="media/image97.png" alt="Irudia: Sakatu Almacenamiento > Añadir disco" width="600" style="max-width:100%;">
+<img src="img/image97.png" alt="Irudia: Sakatu Almacenamiento > Añadir disco" width="600" style="max-width:100%;">
 </div>
 
 </div>
@@ -431,7 +431,7 @@ Sakatu "Almacenamiento" > "Añadir disco".
 Gehitu lehen sortutako diskak.
 
 <div align="left">
-<img src="media/image42.png" alt="Irudia: Gehitu lehen sortutako diskak" width="355" style="max-width:100%;">
+<img src="img/image42.png" alt="Irudia: Gehitu lehen sortutako diskak" width="355" style="max-width:100%;">
 </div>
 
 </div>
@@ -441,7 +441,7 @@ Gehitu lehen sortutako diskak.
 **GOGORATU!!** Diskek funtzionatzeko, kontrolagailu birtualean SATA gehiago jarri behar dituzu.
 
 <div align="left">
-<img src="media/image96.png" alt="Irudia: GOGORATU!! Diskek funtzionatzeko, kontrolagailu birtualean SATA gehiago jarri behar dituzu" width="600" style="max-width:100%;">
+<img src="img/image96.png" alt="Irudia: GOGORATU!! Diskek funtzionatzeko, kontrolagailu birtualean SATA gehiago jarri behar dituzu" width="600" style="max-width:100%;">
 </div>
 
 </div>
@@ -451,7 +451,7 @@ Gehitu lehen sortutako diskak.
 Hau eginda, makina berriro abiarazi dezakegu. Sakatu `Win+X` eta ireki "Administración de discos".
 
 <div align="left">
-<img src="media/image38.png" alt="Irudia: Hau eginda, makina berriro abiarazi dezakegu. Sakatu Win+X eta ireki Administración de…" width="305" style="max-width:100%;">
+<img src="img/image38.png" alt="Irudia: Hau eginda, makina berriro abiarazi dezakegu. Sakatu Win+X eta ireki Administración de…" width="305" style="max-width:100%;">
 </div>
 
 </div>
@@ -461,7 +461,7 @@ Hau eginda, makina berriro abiarazi dezakegu. Sakatu `Win+X` eta ireki "Administ
 Aurkitu orain gehitutako diskak eta aukeratu nahi duzun formatua. Orain RAID-1 azalduko dut.
 
 <div align="left">
-<img src="media/image59.png" alt="Irudia: Aurkitu orain gehitutako diskak eta aukeratu nahi duzun formatua. Orain RAID-1…" width="260" style="max-width:100%;">
+<img src="img/image59.png" alt="Irudia: Aurkitu orain gehitutako diskak eta aukeratu nahi duzun formatua. Orain RAID-1…" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -471,7 +471,7 @@ Aurkitu orain gehitutako diskak eta aukeratu nahi duzun formatua. Orain RAID-1 a
 Behin "Nuevo volumen" sakatuta, zein disko erabili galdetuko dizu.
 
 <div align="left">
-<img src="media/image40.png" alt="Irudia: Behin Nuevo volumen sakatuta, zein disko erabili galdetuko dizu" width="376" style="max-width:100%;">
+<img src="img/image40.png" alt="Irudia: Behin Nuevo volumen sakatuta, zein disko erabili galdetuko dizu" width="376" style="max-width:100%;">
 </div>
 
 </div>
@@ -481,7 +481,7 @@ Behin "Nuevo volumen" sakatuta, zein disko erabili galdetuko dizu.
 Gero, letra bat esleitzeko eskatuko dizu.
 
 <div align="left">
-<img src="media/image54.png" alt="Irudia: Gero, letra bat esleitzeko eskatuko dizu" width="345" style="max-width:100%;">
+<img src="img/image54.png" alt="Irudia: Gero, letra bat esleitzeko eskatuko dizu" width="345" style="max-width:100%;">
 </div>
 
 </div>
@@ -491,7 +491,7 @@ Gero, letra bat esleitzeko eskatuko dizu.
 Gero, zein sistema mota erabili eta izen bat galdetuko dizu.
 
 <div align="left">
-<img src="media/image76.png" alt="Irudia: Gero, zein sistema mota erabili eta izen bat galdetuko dizu" width="342" style="max-width:100%;">
+<img src="img/image76.png" alt="Irudia: Gero, zein sistema mota erabili eta izen bat galdetuko dizu" width="342" style="max-width:100%;">
 </div>
 
 </div>
@@ -501,7 +501,7 @@ Gero, zein sistema mota erabili eta izen bat galdetuko dizu.
 Hau guztia jarraian eginda, bukatuta egon beharko litzateke. Menuak itxura hau izan beharko luke:
 
 <div align="left">
-<img src="media/image64.png" alt="Irudia: Hau guztia jarraian eginda, bukatuta egon beharko litzateke. Menuak itxura hau izan…" width="481" style="max-width:100%;">
+<img src="img/image64.png" alt="Irudia: Hau guztia jarraian eginda, bukatuta egon beharko litzateke. Menuak itxura hau izan…" width="481" style="max-width:100%;">
 </div>
 
 </div>
@@ -511,7 +511,7 @@ Hau guztia jarraian eginda, bukatuta egon beharko litzateke. Menuak itxura hau i
 RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen.
 
 <div align="left">
-<img src="media/image73.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image86.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image62.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image87.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image23.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">
+<img src="img/image73.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image86.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image62.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image87.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image23.png" alt="Irudia: RAID-5erako prozesua nahiko berdina da; funtzioa baino ez da aldatzen" height="69" style="max-width:100%;">
 </div>
 
 </div>
@@ -525,7 +525,7 @@ Zerbitzaria guztiz babestuta dagoela bermatzeko, babeskopia-zerbitzu bat izatea 
 Zerbitzari-administratzailean, klikatu "Administrar" > "Agregar roles y características".
 
 <div align="left">
-<img src="media/image20.png" alt="Irudia: Zerbitzari-administratzailean, klikatu Administrar > Agregar roles y características" width="574" style="max-width:100%;">
+<img src="img/image20.png" alt="Irudia: Zerbitzari-administratzailean, klikatu Administrar > Agregar roles y características" width="574" style="max-width:100%;">
 </div>
 
 </div>
@@ -535,7 +535,7 @@ Zerbitzari-administratzailean, klikatu "Administrar" > "Agregar roles y caracter
 Joan "Características" atalera arte eta aukeratu "Windows Server Backup". Jarraitu eta instalatu.
 
 <div align="left">
-<img src="media/image58.png" alt="Irudia: Joan Características atalera arte eta aukeratu Windows Server Backup. Jarraitu eta…" width="437" style="max-width:100%;">
+<img src="img/image58.png" alt="Irudia: Joan Características atalera arte eta aukeratu Windows Server Backup. Jarraitu eta…" width="437" style="max-width:100%;">
 </div>
 
 </div>
@@ -545,7 +545,7 @@ Joan "Características" atalera arte eta aukeratu "Windows Server Backup". Jarra
 Instalatu ondoren, ireki segurtasun-kopien tresna.
 
 <div align="left">
-<img src="media/image16.png" alt="Irudia: Instalatu ondoren, ireki segurtasun-kopien tresna" width="401" style="max-width:100%;">
+<img src="img/image16.png" alt="Irudia: Instalatu ondoren, ireki segurtasun-kopien tresna" width="401" style="max-width:100%;">
 </div>
 
 </div>
@@ -555,7 +555,7 @@ Instalatu ondoren, ireki segurtasun-kopien tresna.
 Klikatu "Copia de seguridad local" eta, kopiak aldizka egin nahi badituzu, "Programar copia de seguridad".
 
 <div align="left">
-<img src="media/image43.png" alt="Irudia: Klikatu Copia de seguridad local eta, kopiak aldizka egin nahi badituzu, Programar…" width="404" style="max-width:100%;">
+<img src="img/image43.png" alt="Irudia: Klikatu Copia de seguridad local eta, kopiak aldizka egin nahi badituzu, Programar…" width="404" style="max-width:100%;">
 </div>
 
 </div>
@@ -565,7 +565,7 @@ Klikatu "Copia de seguridad local" eta, kopiak aldizka egin nahi badituzu, "Prog
 Jarraitu eta aukeratu nahiago duzun aukera.
 
 <div align="left">
-<img src="media/image9.png" alt="Irudia: Jarraitu eta aukeratu nahiago duzun aukera" width="436" style="max-width:100%;">
+<img src="img/image9.png" alt="Irudia: Jarraitu eta aukeratu nahiago duzun aukera" width="436" style="max-width:100%;">
 </div>
 
 </div>
@@ -575,7 +575,7 @@ Jarraitu eta aukeratu nahiago duzun aukera.
 Orain, aldizkako kopiaren ordutegiak ezarri beharko dituzu.
 
 <div align="left">
-<img src="media/image72.png" alt="Irudia: Orain, aldizkako kopiaren ordutegiak ezarri beharko dituzu" width="381" style="max-width:100%;">
+<img src="img/image72.png" alt="Irudia: Orain, aldizkako kopiaren ordutegiak ezarri beharko dituzu" width="381" style="max-width:100%;">
 </div>
 
 </div>
@@ -585,7 +585,7 @@ Orain, aldizkako kopiaren ordutegiak ezarri beharko dituzu.
 Orain, kopia non gorde galdetuko dizu. Aukerarik onena sistematik aparte dagoen disko batean gordetzea da.
 
 <div align="left">
-<img src="media/image39.png" alt="Irudia: Orain, kopia non gorde galdetuko dizu. Aukerarik onena sistematik aparte dagoen disko…" width="334" style="max-width:100%;">
+<img src="img/image39.png" alt="Irudia: Orain, kopia non gorde galdetuko dizu. Aukerarik onena sistematik aparte dagoen disko…" width="334" style="max-width:100%;">
 </div>
 
 </div>
@@ -595,7 +595,7 @@ Orain, kopia non gorde galdetuko dizu. Aukerarik onena sistematik aparte dagoen 
 Nire kasuan, beste disko batean gordetzea erabaki dut. Gogoratu kasu honetan diskoak sistema dagoen diskoaren tamaina bera edo handiagoa izan behar duela.
 
 <div align="left">
-<img src="media/image35.png" alt="Irudia: Nire kasuan, beste disko batean gordetzea erabaki dut. Gogoratu kasu honetan diskoak…" width="514" style="max-width:100%;">
+<img src="img/image35.png" alt="Irudia: Nire kasuan, beste disko batean gordetzea erabaki dut. Gogoratu kasu honetan diskoak…" width="514" style="max-width:100%;">
 </div>
 
 </div>
@@ -605,7 +605,7 @@ Nire kasuan, beste disko batean gordetzea erabaki dut. Gogoratu kasu honetan dis
 Azkenik, kopiaren xehetasunak erakutsiko dizkizu, dena ondo dagoen ikusteko.
 
 <div align="left">
-<img src="media/image10.png" alt="Irudia: Azkenik, kopiaren xehetasunak erakutsiko dizkizu, dena ondo dagoen ikusteko" width="487" style="max-width:100%;">
+<img src="img/image10.png" alt="Irudia: Azkenik, kopiaren xehetasunak erakutsiko dizkizu, dena ondo dagoen ikusteko" width="487" style="max-width:100%;">
 </div>
 
 </div>
@@ -615,7 +615,7 @@ Azkenik, kopiaren xehetasunak erakutsiko dizkizu, dena ondo dagoen ikusteko.
 Eta horrekin amaituta egongo da.
 
 <div align="left">
-<img src="media/image81.png" alt="Irudia: Eta horrekin amaituta egongo da" width="252" style="max-width:100%;">
+<img src="img/image81.png" alt="Irudia: Eta horrekin amaituta egongo da" width="252" style="max-width:100%;">
 </div>
 
 </div>
@@ -631,7 +631,7 @@ Zerbitzari baten funtzio nagusia zerbitzuak eskaintzea da.
 Lehen urratsa zerbitzuak instalatzea da. Ireki sisteman lehenetsita datorren zerbitzari-administratzailea eta jarraitu honela: "Administrar" > "Agregar roles y características".
 
 <div align="left">
-<img src="media/image20.png" alt="Irudia: Lehen urratsa zerbitzuak instalatzea da. Ireki sisteman lehenetsita datorren…" width="574" style="max-width:100%;">
+<img src="img/image20.png" alt="Irudia: Lehen urratsa zerbitzuak instalatzea da. Ireki sisteman lehenetsita datorren…" width="574" style="max-width:100%;">
 </div>
 
 </div>
@@ -641,7 +641,7 @@ Lehen urratsa zerbitzuak instalatzea da. Ireki sisteman lehenetsita datorren zer
 Jarraitu "Roles" atalera arte eta aukeratu behar dituzunak. DHCP, DNS eta IIS dira ohikoenak. "Características" atalean, "Windows Server Backup" ere ondo dator gerorako.
 
 <div align="left">
-<img src="media/image28.png" alt="Irudia: Jarraitu Roles atalera arte eta aukeratu behar dituzunak. DHCP, DNS eta IIS dira…" width="399" style="max-width:100%;">
+<img src="img/image28.png" alt="Irudia: Jarraitu Roles atalera arte eta aukeratu behar dituzunak. DHCP, DNS eta IIS dira…" width="399" style="max-width:100%;">
 </div>
 
 </div>
@@ -651,7 +651,7 @@ Jarraitu "Roles" atalera arte eta aukeratu behar dituzunak. DHCP, DNS eta IIS di
 Hau egin ondoren, jarraitu botoia sakatuz honaino iritsi arte. Dena ondo egon beharko litzateke.
 
 <div align="left">
-<img src="media/image82.png" alt="Irudia: Hau egin ondoren, jarraitu botoia sakatuz honaino iritsi arte. Dena ondo egon beharko…" width="444" style="max-width:100%;">
+<img src="img/image82.png" alt="Irudia: Hau egin ondoren, jarraitu botoia sakatuz honaino iritsi arte. Dena ondo egon beharko…" width="444" style="max-width:100%;">
 </div>
 
 </div>
@@ -665,7 +665,7 @@ Dena instalatuta dugunean, DNS-rekin hasiko gara. Zerbitzu honek izen bat IP bat
 Horretarako, zerbitzari-administratzailean, "Herramientas" > "DNS".
 
 <div align="left">
-<img src="media/image51.png" alt="Irudia: Horretarako, zerbitzari-administratzailean, Herramientas > DNS" width="419" style="max-width:100%;">
+<img src="img/image51.png" alt="Irudia: Horretarako, zerbitzari-administratzailean, Herramientas > DNS" width="419" style="max-width:100%;">
 </div>
 
 </div>
@@ -675,7 +675,7 @@ Horretarako, zerbitzari-administratzailean, "Herramientas" > "DNS".
 Barruan sartuta, klikatu zerbitzarian eta DNS konfiguratzen hasi gaitezke.
 
 <div align="left">
-<img src="media/image69.png" alt="Irudia: Barruan sartuta, klikatu zerbitzarian eta DNS konfiguratzen hasi gaitezke" width="321" style="max-width:100%;">
+<img src="img/image69.png" alt="Irudia: Barruan sartuta, klikatu zerbitzarian eta DNS konfiguratzen hasi gaitezke" width="321" style="max-width:100%;">
 </div>
 
 </div>
@@ -685,7 +685,7 @@ Barruan sartuta, klikatu zerbitzarian eta DNS konfiguratzen hasi gaitezke.
 Zein funtzio konfiguratu nahi duzun galdetuko dizu. Bai bilaketa zuzena bai alderantzizkoa gomendatuko nuke, biak beharrezkoak izango direlako.
 
 <div align="left">
-<img src="media/image32.png" alt="Irudia: Zein funtzio konfiguratu nahi duzun galdetuko dizu. Bai bilaketa zuzena bai…" width="268" style="max-width:100%;">
+<img src="img/image32.png" alt="Irudia: Zein funtzio konfiguratu nahi duzun galdetuko dizu. Bai bilaketa zuzena bai…" width="268" style="max-width:100%;">
 </div>
 
 </div>
@@ -695,7 +695,7 @@ Zein funtzio konfiguratu nahi duzun galdetuko dizu. Bai bilaketa zuzena bai alde
 Sortu zona nagusia.
 
 <div align="left">
-<img src="media/image8.png" alt="Irudia: Sortu zona nagusia" width="260" style="max-width:100%;">
+<img src="img/image8.png" alt="Irudia: Sortu zona nagusia" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -705,7 +705,7 @@ Sortu zona nagusia.
 Zure zonari izena emateko eskatuko dizu.
 
 <div align="left">
-<img src="media/image1.png" alt="Irudia: Zure zonari izena emateko eskatuko dizu" width="266" style="max-width:100%;">
+<img src="img/image1.png" alt="Irudia: Zure zonari izena emateko eskatuko dizu" width="266" style="max-width:100%;">
 </div>
 
 </div>
@@ -715,7 +715,7 @@ Zure zonari izena emateko eskatuko dizu.
 Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu.
 
 <div align="left">
-<img src="media/image70.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image78.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">&nbsp;&nbsp;<img src="media/image2.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">
+<img src="img/image70.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image78.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">&nbsp;&nbsp;<img src="img/image2.png" alt="Irudia: Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu" height="126" style="max-width:100%;">
 </div>
 
 </div>
@@ -725,7 +725,7 @@ Hurrengo urratsak berdinak dira, edo automatikoki jarraitu ditzakezu.
 Alderantzizko zonarako, zure sarearen IDa beharko duzu (IP-aren hasiera).
 
 <div align="left">
-<img src="media/image17.png" alt="Irudia: Alderantzizko zonarako, zure sarearen IDa beharko duzu (IP-aren hasiera)" width="447" style="max-width:100%;">
+<img src="img/image17.png" alt="Irudia: Alderantzizko zonarako, zure sarearen IDa beharko duzu (IP-aren hasiera)" width="447" style="max-width:100%;">
 </div>
 
 </div>
@@ -735,7 +735,7 @@ Alderantzizko zonarako, zure sarearen IDa beharko duzu (IP-aren hasiera).
 Jarraitu honela:
 
 <div align="left">
-<img src="media/image85.png" alt="Irudia: Jarraitu honela" width="260" style="max-width:100%;">
+<img src="img/image85.png" alt="Irudia: Jarraitu honela" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -745,7 +745,7 @@ Jarraitu honela:
 Hau ez da baliagarria Interneterik gabeko lan batean.
 
 <div align="left">
-<img src="media/image52.png" alt="Irudia: Hau ez da baliagarria Interneterik gabeko lan batean" width="260" style="max-width:100%;">
+<img src="img/image52.png" alt="Irudia: Hau ez da baliagarria Interneterik gabeko lan batean" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -757,7 +757,7 @@ Hau egin ondoren, errore bat agertu daiteke. Lasai, konfigurazioa eskuz jarrai d
 Lehenik, host bat sortu behar dugu. Ireki "Zonas de búsqueda" eta "Host nuevo".
 
 <div align="left">
-<img src="media/image29.png" alt="Irudia: Lehenik, host bat sortu behar dugu. Ireki Zonas de búsqueda eta Host nuevo" width="549" style="max-width:100%;">
+<img src="img/image29.png" alt="Irudia: Lehenik, host bat sortu behar dugu. Ireki Zonas de búsqueda eta Host nuevo" width="549" style="max-width:100%;">
 </div>
 
 </div>
@@ -767,7 +767,7 @@ Lehenik, host bat sortu behar dugu. Ireki "Zonas de búsqueda" eta "Host nuevo".
 Eman nahi duzun izena eta lotu zure zerbitzariaren IP-ra.
 
 <div align="left">
-<img src="media/image11.png" alt="Irudia: Eman nahi duzun izena eta lotu zure zerbitzariaren IP-ra" width="301" style="max-width:100%;">
+<img src="img/image11.png" alt="Irudia: Eman nahi duzun izena eta lotu zure zerbitzariaren IP-ra" width="301" style="max-width:100%;">
 </div>
 
 </div>
@@ -777,7 +777,7 @@ Eman nahi duzun izena eta lotu zure zerbitzariaren IP-ra.
 Orain, hauek konfiguratuko ditugu:
 
 <div align="left">
-<img src="media/image71.png" alt="Irudia: Orain, hauek konfiguratuko ditugu" width="600" style="max-width:100%;">
+<img src="img/image71.png" alt="Irudia: Orain, hauek konfiguratuko ditugu" width="600" style="max-width:100%;">
 </div>
 
 </div>
@@ -787,7 +787,7 @@ Orain, hauek konfiguratuko ditugu:
 Lehenengo orrian, hauek gure host-arekin lotu behar ditugu.
 
 <div align="left">
-<img src="media/image68.png" alt="Irudia: Lehenengo orrian, hauek gure host-arekin lotu behar ditugu" width="298" style="max-width:100%;">
+<img src="img/image68.png" alt="Irudia: Lehenengo orrian, hauek gure host-arekin lotu behar ditugu" width="298" style="max-width:100%;">
 </div>
 
 </div>
@@ -797,7 +797,7 @@ Lehenengo orrian, hauek gure host-arekin lotu behar ditugu.
 Gero, "Servidores de nombres" atalean, zure zerbitzariaren IP-a jarri beharko duzu. Zure zerbitzariaren izena agertzen bada, "Resolver" sakatzearekin nahikoa da.
 
 <div align="left">
-<img src="media/image47.png" alt="Irudia: Gero, Servidores de nombres atalean, zure zerbitzariaren IP-a jarri beharko duzu. Zure…" width="329" style="max-width:100%;">
+<img src="img/image47.png" alt="Irudia: Gero, Servidores de nombres atalean, zure zerbitzariaren IP-a jarri beharko duzu. Zure…" width="329" style="max-width:100%;">
 </div>
 
 </div>
@@ -807,7 +807,7 @@ Gero, "Servidores de nombres" atalean, zure zerbitzariaren IP-a jarri beharko du
 Bi urrats hauek alderantzizko zonarekin ere egin beharko dituzu.
 
 <div align="left">
-<img src="media/image22.png" alt="Irudia: Bi urrats hauek alderantzizko zonarekin ere egin beharko dituzu" width="402" style="max-width:100%;">
+<img src="img/image22.png" alt="Irudia: Bi urrats hauek alderantzizko zonarekin ere egin beharko dituzu" width="402" style="max-width:100%;">
 </div>
 
 </div>
@@ -817,7 +817,7 @@ Bi urrats hauek alderantzizko zonarekin ere egin beharko dituzu.
 Hau guztia eginda, ireki cmd eta erabili komando hau zerbitzariaren IP-arekin. Dena ondo egin baduzu, horrelako zerbait agertu beharko litzateke.
 
 <div align="left">
-<img src="media/image48.png" alt="Irudia: Hau guztia eginda, ireki cmd eta erabili komando hau zerbitzariaren IP-arekin. Dena…" width="333" style="max-width:100%;">
+<img src="img/image48.png" alt="Irudia: Hau guztia eginda, ireki cmd eta erabili komando hau zerbitzariaren IP-arekin. Dena…" width="333" style="max-width:100%;">
 </div>
 
 </div>
@@ -831,7 +831,7 @@ Bezeroek gure zerbitzuetara iristea nahi badugu, web bidezko sarbidea izatea da 
 Hau konfiguratzen hasteko, zerbitzari-administratzailean bilatu interneteko zerbitzuen administratzaile-tresna (IIS).
 
 <div align="left">
-<img src="media/image30.png" alt="Irudia: Hau konfiguratzen hasteko, zerbitzari-administratzailean bilatu interneteko zerbitzuen…" width="444" style="max-width:100%;">
+<img src="img/image30.png" alt="Irudia: Hau konfiguratzen hasteko, zerbitzari-administratzailean bilatu interneteko zerbitzuen…" width="444" style="max-width:100%;">
 </div>
 
 </div>
@@ -841,7 +841,7 @@ Hau konfiguratzen hasteko, zerbitzari-administratzailean bilatu interneteko zerb
 Bilatu "Sitios" atala eta ireki zerbitzariaren adarra.
 
 <div align="left">
-<img src="media/image45.png" alt="Irudia: Bilatu Sitios atala eta ireki zerbitzariaren adarra" width="293" style="max-width:100%;">
+<img src="img/image45.png" alt="Irudia: Bilatu Sitios atala eta ireki zerbitzariaren adarra" width="293" style="max-width:100%;">
 </div>
 
 </div>
@@ -853,7 +853,7 @@ Zure web-orria zerbitzu honetan ezartzeko, zerbitzuaren karpetara joan beharko z
 Horretarako, "Default Web Site" gainean eskuineko klik eginda, aukeratu "Explorar".
 
 <div align="left">
-<img src="media/image31.png" alt="Irudia: Horretarako, Default Web Site gainean eskuineko klik eginda, aukeratu Explorar" width="338" style="max-width:100%;">
+<img src="img/image31.png" alt="Irudia: Horretarako, Default Web Site gainean eskuineko klik eginda, aukeratu Explorar" width="338" style="max-width:100%;">
 </div>
 
 </div>
@@ -863,7 +863,7 @@ Horretarako, "Default Web Site" gainean eskuineko klik eginda, aukeratu "Explora
 Honek `wwwroot` karpetara eramango zaitu. Bertan, zerbitzuak aurrez instalatutako web-orri txiki bat dago; hori ezabatu eta horren ordez zurea jarri dezakezu.
 
 <div align="left">
-<img src="media/image50.png" alt="Irudia: Honek wwwroot karpetara eramango zaitu. Bertan, zerbitzuak aurrez instalatutako…" width="369" style="max-width:100%;">
+<img src="img/image50.png" alt="Irudia: Honek wwwroot karpetara eramango zaitu. Bertan, zerbitzuak aurrez instalatutako…" width="369" style="max-width:100%;">
 </div>
 
 </div>
@@ -875,7 +875,7 @@ Hurrengoa, gure orria DNS-ra lotzea da.
 Gure web-orrian klik eginda, eskuineko barran sakatu "Enlaces".
 
 <div align="left">
-<img src="media/image80.png" alt="Irudia: Gure web-orrian klik eginda, eskuineko barran sakatu Enlaces" width="468" style="max-width:100%;">
+<img src="img/image80.png" alt="Irudia: Gure web-orrian klik eginda, eskuineko barran sakatu Enlaces" width="468" style="max-width:100%;">
 </div>
 
 </div>
@@ -885,11 +885,11 @@ Gure web-orrian klik eginda, eskuineko barran sakatu "Enlaces".
 Eta gehitu zure zerbitzariaren IP-a. Garrantzitsua da "Host" atalean zure DNS zerbitzuko host-aren helbidea jartzea.
 
 <div align="left">
-<img src="media/image95.png" alt="Irudia: Eta gehitu zure zerbitzariaren IP-a. Garrantzitsua da Host atalean zure DNS zerbitzuko…" width="513" style="max-width:100%;">
+<img src="img/image95.png" alt="Irudia: Eta gehitu zure zerbitzariaren IP-a. Garrantzitsua da Host atalean zure DNS zerbitzuko…" width="513" style="max-width:100%;">
 </div>
 
 <div align="left">
-<img src="media/image93.png" alt="Irudia: Eta gehitu zure zerbitzariaren IP-a. Garrantzitsua da Host atalean zure DNS zerbitzuko…" width="600" style="max-width:100%;">
+<img src="img/image93.png" alt="Irudia: Eta gehitu zure zerbitzariaren IP-a. Garrantzitsua da Host atalean zure DNS zerbitzuko…" width="600" style="max-width:100%;">
 </div>
 
 </div>
@@ -901,7 +901,7 @@ Hau eginda, egiaztapen-protokoloa jarraitu.
 Lehenik, zerbitzariaren IP-a nabigatzailean jarrita:
 
 <div align="left">
-<img src="media/image66.png" alt="Irudia: Lehenik, zerbitzariaren IP-a nabigatzailean jarrita" width="268" style="max-width:100%;">
+<img src="img/image66.png" alt="Irudia: Lehenik, zerbitzariaren IP-a nabigatzailean jarrita" width="268" style="max-width:100%;">
 </div>
 
 </div>
@@ -911,7 +911,7 @@ Lehenik, zerbitzariaren IP-a nabigatzailean jarrita:
 DNS helbidea erabiliz:
 
 <div align="left">
-<img src="media/image44.png" alt="Irudia: DNS helbidea erabiliz" width="307" style="max-width:100%;">
+<img src="img/image44.png" alt="Irudia: DNS helbidea erabiliz" width="307" style="max-width:100%;">
 </div>
 
 </div>
@@ -921,7 +921,7 @@ DNS helbidea erabiliz:
 Beste gailu batetik IP bidez:
 
 <div align="left">
-<img src="media/image88.jpg" alt="Irudia: Beste gailu batetik IP bidez" width="260" style="max-width:100%;">
+<img src="img/image88.jpg" alt="Irudia: Beste gailu batetik IP bidez" width="260" style="max-width:100%;">
 </div>
 
 </div>
@@ -931,7 +931,7 @@ Beste gailu batetik IP bidez:
 Eta beste gailu batetik DNS bidez:
 
 <div align="left">
-<img src="media/image83.jpg" alt="Irudia: Eta beste gailu batetik DNS bidez" width="260" style="max-width:100%;">
+<img src="img/image83.jpg" alt="Irudia: Eta beste gailu batetik DNS bidez" width="260" style="max-width:100%;">
 </div>
 
 </div>
