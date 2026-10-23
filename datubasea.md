@@ -33,7 +33,7 @@ Con un boceto ya definido, decidimos crear una version digitalizada para pulir a
 
 
 
-![Planifikazioaren irudia 1](img/DB3.jpg)
+![Planifikazioaren irudia 1](img/DB3.png)
 ---
 
 ### 2.2. IT eta OT Teknologiak
