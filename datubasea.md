@@ -86,14 +86,28 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 ---
 
-### 2.4. Cloudean Oinarritutako Sistemak (Cloud Computing)
-Cloud computing-a Internet bidez eskuragarri dauden baliabide informatikoak (zerbitzariak, biltegiratzea, aplikazioak) urrunetik erabiltzeko eredua da, azpiegitura fisiko lokal baten mende egon gabe.
+## 3. Normalization
+### 3.1. Normalization
+#### 3.1.1. Atomic values
+**Is there any repeated information?** 
+**Plan** : ( <u>IDplan</u>, name, price, description ) &rarr; It contains unique values.
 
-**Ezaugarriak eta Mailak:**
-* **Eredu Tradizionala vs Hodeia:** Eredu tradizionalean datuak eta programak gailu lokalean instalatzen eta gordetzen dira; hodeian, berriz, edozein gailutatik atzitu daitezke Internet bidez, biltegiratze lokala muga izan gabe.
-* **Hodei motak:** Publikoa, Pribatua eta Hibridoa.
-* **Zerbitzu Ereduak (Kontenedoreak):**
-  * **IaaS (Infrastructure as a Service):** Azpiegitura birtuala alokatzea (adib. Azure VM, Amazon EC2).
-  * **PaaS (Platform as a Service):** Aplikazioak garatzeko plataforma (adib. Google App Engine).
-  * **SaaS (Software as a Service):** Erabiltzeko prest dauden software-aplikazioak (adib. Google Workspace, Microsoft 365).
-* **Eboluzioa (Fog / Edge / Mist Computing):** Hodeiko latentzia eta banda-zabalera hobetzeko, prozesamendua datu-iturritik gertuago egiteko garatutako teknologiak.
+**Subscription** : ( <u>IDsubscription</u>, paying method, renew type, duration, date start, <mark>IDplan</mark> )
+
+**Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrol</mark> )
+
+**Rol** : ( <u>IDrol</u>, Name, Access type )
+
+**Content** : ( <u>IDcontent</u>, title, minimun age, duration, sumary )
+
+**Film** : ( <u>IDcontent</u> )
+
+**Documental** : ( <u>IDcontent</u> )
+
+**Episodes** : ( <u>IDcontent</u>, <mark>IDseason</mark> )
+
+**Serie / season** : ( <u>IDseason</u>, title )
+
+**Content + rol** : ( <mark><u>IDrol</u></mark>, <mark><u>IDcontent</u></mark> )
+
+**Content + users** : ( <mark><u>IDusers</u></mark>, <mark><u>IDcontent</u></mark>, <u>time stamp</u>, <u>stop mark</u>, <u>feedback</u> ) 
