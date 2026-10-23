@@ -14,7 +14,7 @@ Una vez con la fase de brainstorming completada, nos dispusimos a enlazar todo l
 
 
 
-![Planifikazioaren irudia 1](DB1.jpg)
+![Planifikazioaren irudia 1](img/DB1.jpg)
 
 
 ---
@@ -26,14 +26,14 @@ Con el trabajo muy facilitado gracias al anterior paso, nuestro trabajo se reduj
 
 
 
-![Planifikazioaren irudia 1](DB2.jpg)
+![Planifikazioaren irudia 1](img/DB2.jpg)
 
 ### 2.2. Digitalizar el E/R esquema
 Con un boceto ya definido, decidimos crear una version digitalizada para pulir aun mas nuestro trabajo. Para esta tarea decidimos usar la app Visio. En ella la tarea solo fue ir pasando lo que habia en el papel, dibujado a lapiz, a la app usando sus diferentes figuras y conexiones. Para que el diseño quedara aun mas claro, usamos diferentes colores para cada elemento (por ejemplo: Berde-relaciones)
 
 
 
-![Planifikazioaren irudia 1](DB3.jpg)
+![Planifikazioaren irudia 1](img/DB3.jpg)
 ---
 
 ### 2.2. IT eta OT Teknologiak
