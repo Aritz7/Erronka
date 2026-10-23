@@ -32,17 +32,17 @@ Con el trabajo muy facilitado gracias al anterior paso, nuestro trabajo se reduj
 ---
 
 ### 2.2. Digitalizar el E/R esquema
-Con un boceto ya definido, decidimos crear una version digitalizada para pulir aun mas nuestro trabajo. Para esta tarea decidimos usar la app Visio. En ella la tarea solo fue ir pasando lo que habia en el papel, dibujado a lapiz, a la app usando sus diferentes figuras y conexiones. Para que el diseño quedara aun mas claro, usamos diferentes colores para cada elemento (por ejemplo: Berde-relaciones)
+Con un boceto ya definido, decidimos crear una version digitalizada para pulir aun mas nuestro trabajo ademas de corregir otros fallos que hemos ido encontrando. Para esta tarea decidimos usar la app Visio. En ella la tarea solo fue ir pasando lo que habia en el papel, dibujado a lapiz, a la app usando sus diferentes figuras y conexiones. Para que el diseño quedara aun mas claro, usamos diferentes colores para cada elemento (por ejemplo: Berde-relaciones)
 
 
 
-![Planifikazioaren irudia 1](img/DB3.png)
+![Planifikazioaren irudia 1](img/DB4.png)
 
 
 ---
 
 ### 2.3. Explanation
-Data base explanation:
+**Data base explanation:**
 
 We want to store different data for a company that provides a web platform similar to Netflix.
 
@@ -52,9 +52,9 @@ Also, each user will acquire a plan to access our platform. The plans can be one
 
 Additionally, each user will have a role, and a role can belong to multiple users. The web will only have 2 different roles, adults and kids. The role entity will keep the name, ID, and Access type (if it has complete access or access to under 18 content only). This entity is linked to a content entity. A role can allow multiple contents, and a content is allowed by 1 or 2 roles (because there are only 2 different roles); therefore, 18+ content will only be seen by adults, and children's content could be watched by kids and adults as well.
 
-The content entity will keep this information: Title, ID, minimum age required to watch, amount of views, amount of likes, and amount of dislikes. Also, this entity is linked to “user”; a user can watch no content or watch multiple contents, and each individual content can be watched by no users or by multiple users. Also, in the relationship, we will keep the stop marker and the timestamp (we will know at what exact point of the content the user stopped watching it the last time).
+The content entity will keep this information: Title, ID, minimum age required to watch, duration, amount of likes, and amount of dislikes. Also, this entity is linked to “user”; a user can watch no content or watch multiple contents, and each individual content can be watched by no users or by multiple users. Also, in the relationship, we will keep the stop marker, the feedback and the timestamp (we will know at what exact point of the content the user stopped watching it the last time).
 
-To continue, we want to store different types of content, so we implemented an ISA relation with complete exclusivity. So, we have 3 sub-entities: film, documentary, and series. In documentary and film, we will keep the duration of each one. Series, instead, will be linked to another entity called season, which will keep the ID, season number, and the title. Each series has 1 or more seasons, and each season belongs to a series. With the same format and characteristics, the episode entity will be linked to season. Episode entity will store the ID, episode number, title, and duration of each episode. Each episode belongs to a season, and a season can have 1 or more episodes.
+To continue, we want to store different types of content, so we implemented an ISA relation with complete exclusivity. So, we have 3 sub-entities: film, documentary, and episodes.  Episodes,  will be the only entity that will have anything different, because we want to know each episode from what season/serie is. To do this, we linked to another entity called season/serie, which will keep the ID, and the title. Each episode belongs to a serie/season and each serie/season will have multiple episodes.  
 
 To conclude, we will keep the genre and subgenres of the content. To do this, we created another entity called genre; it will keep the ID and the name, and it will be connected to content. Each content can have multiple genres, and each genre applies to multiple contents. To store the subgenres, we created a recursive relationship. Each genre can have 0 or many subgenres, and each subgenre belongs to only one genre.
 
