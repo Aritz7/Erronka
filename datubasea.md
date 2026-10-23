@@ -53,6 +53,7 @@ The content entity will keep this information: Title, ID, minimum age required t
 To continue, we want to store different types of content, so we implemented an ISA relation with complete exclusivity. So, we have 3 sub-entities: film, documentary, and series. In documentary and film, we will keep the duration of each one. Series, instead, will be linked to another entity called season, which will keep the ID, season number, and the title. Each series has 1 or more seasons, and each season belongs to a series. With the same format and characteristics, the episode entity will be linked to season. Episode entity will store the ID, episode number, title, and duration of each episode. Each episode belongs to a season, and a season can have 1 or more episodes.
 
 To conclude, we will keep the genre and subgenres of the content. To do this, we created another entity called genre; it will keep the ID and the name, and it will be connected to content. Each content can have multiple genres, and each genre applies to multiple contents. To store the subgenres, we created a recursive relationship. Each genre can have 0 or many subgenres, and each subgenre belongs to only one genre.
+
 ---
 
 ### 2.3. Teknologia Gaitzaile Digitalak (TGD / THD)
