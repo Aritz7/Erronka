@@ -9,12 +9,12 @@ title: Markatze Lengoaiak
 
 Proiektu honen weborria **HTML5** eta **CSS3** erabiliz garatu dugu, beste liburutegi edo framework-ik gabe. Weborriak bi fitxategi nagusi ditu: `index.html` (egitura) eta `style.css` (itxura).
 
-![markatzeirudia1](img/weborria1.png)
-![markatzeirudia2](img/weborria2.png)
+![markatzeirudia1](img/markatzeirudia1.png)
+![markatzeirudia2](img/markatzeirudia2.png)
 
 ---
 
-## 2. Erabilitako Teknologiak
+## 2. Visual Studio Code
 
 ### 2.1. HTML
 
@@ -73,15 +73,22 @@ JavaScript erabili gabe, **CSS-ko `:hover` pseudo-klasea** erabili dugu interakt
 ### 2.5. Fitxategien Antolaketa
 
 ```text
-proiektua/
+1-Erronka-WEB-ORRIA/
 ├── index.html
 ├── dokumentazioa.html
+|   ├── sareak.html
+|   |   └── style_sareak.css
+|   ├── sistemaeragileak.html
+|   |   └── style_sistemaeragileak.css
+|   ├── datubaseak.html
+|   |   └── style_datubaseak.css
+|   └── digitalizazioa.html
+|       └── style_digitalizazioa.css
 ├── Saioahasi.html
+|   |   └── style_saioahasi.css
+|   └── Erregistroa.html
+|       └── style_erregistroa.css
 ├── style.css
 └── img/
     ├── erabiltzailea.png
     └── infogramak-UNI-45-e1620890341119-1.png
-```
-
-- **Egitura (HTML) eta itxura (CSS) bereizita** daude, mantentzea errazteko.
-- **Irudiak `img/` karpetan** gordeta daude.
