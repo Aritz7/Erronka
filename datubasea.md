@@ -60,19 +60,29 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 
 ---
+## 3. Relational model
+### 3.1. Relational model
+**Plan** : ( <u>IDplan</u>, name, price, description )
 
-### 2.3. Teknologia Gaitzaile Digitalak (TGD / THD)
-**Plan** : ( IDplan, name, price, description )
-**Subscription** : ( IDsubscription, paying method, renew type, duration, date start, IDplan )
-**Users** : ( IDuser, Name, password, date of birth, date of creation, email, IDsubscription, IDrol )
-**Rol** : ( IDrol, Name, Access type )
-**Content** : ( IDcontent, title, minimun age, duration, sumary )
-**Film** : ( IDcontent )
-**Documental** : ( IDcontent )
-**Episodes** : ( IDcontent, IDseason )
-**Serie / season** : ( IDseason, title )
-**Content + rol** : ( IDrol, IDcontent )
-**Content + users** : ( IDusers, IDcontent, time stamp, stop mark, feedback ) <mark><u>IDrol</u></mark>
+**Subscription** : ( <u>IDsubscription</u>, paying method, renew type, duration, date start, <mark>IDplan</mark> )
+
+**Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrol</mark> )
+
+**Rol** : ( <u>IDrol</u>, Name, Access type )
+
+**Content** : ( <u>IDcontent</u>, title, minimun age, duration, sumary )
+
+**Film** : ( <u>IDcontent</u> )
+
+**Documental** : ( <u>IDcontent</u> )
+
+**Episodes** : ( <u>IDcontent</u>, <mark>IDseason</mark> )
+
+**Serie / season** : ( <u>IDseason</u>, title )
+
+**Content + rol** : ( <mark><u>IDrol</u></mark>, <mark><u>IDcontent</u></mark> )
+
+**Content + users** : ( <mark><u>IDusers</u></mark>, <mark><u>IDcontent</u></mark>, <u>time stamp</u>, <u>stop mark</u>, <u>feedback</u> ) 
 
 ---
 
