@@ -8,7 +8,6 @@ title: Digitalizazioa
 
 Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kudeatzeko, hasierako planifikazioa digitalizatu dugu. Horretarako, **GitHub Projects** tresna erabili dugu tablero birtual bat sortuz. Tablero honetan, ataza bakoitza bere egoeraren arabera (*To do*, *In progress*, *Done*) eta dagokion asignaturaren arabera antolatu da.
     
-*Hemen planifikazioaren irudiak adjuntatu ditzakezu:*
 
 ![Planifikazioaren irudia 1](img/planifikazioa1.png)
 ![Planifikazioaren irudia 2](img/planifikazioa2.png)
@@ -17,7 +16,7 @@ Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kud
 
 ## 2. Digitalizazioaren Oinarrizko Kontzeptuak
 
-### 2.1. Digitalizazioa (Digitalización)
+### 2.1. Digitalizazioa 
 Digitalizazioa prozesu, produktu eta zerbitzu tradizionalak eraldatzeko prozesua da, teknologia digitalak erabiliz. Ez da soilik zereginak informatizatzea, baizik eta erakunde baten funtzionamendua, ekoizpena eta erabakiak hartzeko modua birdefinitzea.
 - **Abantailak:** Eraginkortasuna eta zehaztasuna hobetzen ditu, lana arintzen du, komunikazioa azkartzen du eta negozio-aukera berriak sortzen ditu.
 - **Eragina enpresan:** Lanpostu berriak sortzea, lan egiteko moduak eta komunikazioa aldatzea, eta erabakiak denbora errealean hartzea ahalbidetzen du.
