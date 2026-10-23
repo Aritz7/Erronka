@@ -7,10 +7,10 @@ title: Datu-Baseak
 ## 1. Brainstorming eta ideia orokorra
 
 ### 1.1. Brainstorming 
-Para empezar con el apartado de base de datos, hemos optado por hacer un brainstorming para aportar la mayor cantidad de ideas para el proyecto. Con este metodo hemos conseguido aportar la mayoria de entidades y de atributos que aparecen en la base de datos final. 
+To begin with the database section, we opted to conduct a brainstorming session to generate as many ideas as possible for the project. Through this method, we managed to identify most of the entities and attributes that appear in the final database.
     
 ### 1.2. Ideia orokorra 
-Una vez con la fase de brainstorming completada, nos dispusimos a enlazar todo lo optenido de la forma mas optima posible y a la vez adaptandola a nuestra idea de pagina web. En este paso diseñamos el primer esquema para que fuese lo mas comprensible y a la vez facil de crear posible. Con esto hecho, al crear nuestra E/R esquema nos facilitara el proceso.
+Once the brainstorming phase was completed, we set out to link all the gathered ideas in the most optimal way possible, while adapting them to our website vision. In this step, we designed an initial schema to make it as clear and easy to build as possible. Having done this will simplify the process when creating our E-R diagram
 
 
 
@@ -22,7 +22,7 @@ Una vez con la fase de brainstorming completada, nos dispusimos a enlazar todo l
 ## 2. E/R esquema
 
 ### 2.1. Diseño definitivo E/R esquema
-Con el trabajo muy facilitado gracias al anterior paso, nuestro trabajo se redujo a tres sencillos pasos. El primer paso fue reducir el esquema para adaptarlo a nuestras necesidades reales. Aqui descartamos todo el apartado de la produccion y la entidad "Komentario" para que el diseño final no se extendiese en exceso. El segundo paso fue dibujar el esquema en papel con los atributos figurando ya en el esquema, colocar las cardinales y usar el codigo preciso para todo lo anterior. El tercer y ultimo paso fue corregir distintos fallos que encontramos a lo largo del proceso para tener el boceto definitivo.
+With the workload greatly simplified thanks to the previous step, our task was reduced to three simple steps. First, we streamlined the schema to adapt it to our actual needs. At this point, we discarded the entire production section and the 'Komentario' entity so that the final design would not become overly extended. Second, we drew the schema on paper, including all attributes, defining the cardinalities, and applying the precise notation for everything. The third and final step was to correct various errors found along the way to arrive at the definitive draft.
 
 
 
@@ -32,7 +32,7 @@ Con el trabajo muy facilitado gracias al anterior paso, nuestro trabajo se reduj
 ---
 
 ### 2.2. Digitalizar el E/R esquema
-Con un boceto ya definido, decidimos crear una version digitalizada para pulir aun mas nuestro trabajo ademas de corregir otros fallos que hemos ido encontrando. Para esta tarea decidimos usar la app Visio. En ella la tarea solo fue ir pasando lo que habia en el papel, dibujado a lapiz, a la app usando sus diferentes figuras y conexiones. Para que el diseño quedara aun mas claro, usamos diferentes colores para cada elemento (por ejemplo: Berde-relaciones)
+With a clear draft defined, we decided to create a digitalized version to further refine our work and correct other errors discovered along the way. For this task, we chose to use Microsoft Visio. The process simply involved transferring what was drawn in pencil on paper to the app using its various shapes and connectors. To make the design even clearer, we used different colors for each element (for example, green for relationships).
 
 
 
