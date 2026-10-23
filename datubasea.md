@@ -89,25 +89,3 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 ## 3. Normalization
 ### 3.1. Normalization
 #### 3.1.1. Atomic values
-**Is there any repeated information?** 
-**Plan** : ( <u>IDplan</u>, name, price, description ) &rarr; It contains unique values.
-
-**Subscription** : ( <u>IDsubscription</u>, paying method, renew type, duration, date start, <mark>IDplan</mark> )
-
-**Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrol</mark> )
-
-**Rol** : ( <u>IDrol</u>, Name, Access type )
-
-**Content** : ( <u>IDcontent</u>, title, minimun age, duration, sumary )
-
-**Film** : ( <u>IDcontent</u> )
-
-**Documental** : ( <u>IDcontent</u> )
-
-**Episodes** : ( <u>IDcontent</u>, <mark>IDseason</mark> )
-
-**Serie / season** : ( <u>IDseason</u>, title )
-
-**Content + rol** : ( <mark><u>IDrol</u></mark>, <mark><u>IDcontent</u></mark> )
-
-**Content + users** : ( <mark><u>IDusers</u></mark>, <mark><u>IDcontent</u></mark>, <u>time stamp</u>, <u>stop mark</u>, <u>feedback</u> ) 
