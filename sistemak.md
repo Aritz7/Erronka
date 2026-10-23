@@ -2,9 +2,9 @@
 layout: page
 title: Sistemak
 ---
-
+# Sistema eragileak ezartzea
 <div align="left">
-#Sistema eragileak ezartzea
+
 <img src="img/image46.png" alt="Azala" width="600" style="max-width:100%;">
 </div>
 
