@@ -66,21 +66,21 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 **Subscription** : ( <u>IDsubscription</u>, paying method, renew type, duration, date start, <mark>IDplan</mark> )
 
-**Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrol</mark> )
+**Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrole</mark> )
 
-**Rol** : ( <u>IDrol</u>, Name, Access type )
+**Role** : ( <u>IDrole</u>, Name, Access type )
 
 **Content** : ( <u>IDcontent</u>, title, minimun age, duration, sumary )
 
 **Film** : ( <u>IDcontent</u> )
 
-**Documental** : ( <u>IDcontent</u> )
+**Documentary** : ( <u>IDcontent</u> )
 
 **Episodes** : ( <u>IDcontent</u>, <mark>IDseason</mark> )
 
 **Serie / season** : ( <u>IDseason</u>, title )
 
-**Content + rol** : ( <mark><u>IDrol</u></mark>, <mark><u>IDcontent</u></mark> )
+**Content + role** : ( <mark><u>IDrole</u></mark>, <mark><u>IDcontent</u></mark> )
 
 **Content + users** : ( <mark><u>IDusers</u></mark>, <mark><u>IDcontent</u></mark>, <u>time stamp</u>, <u>stop mark</u>, <u>feedback</u> ) 
 
@@ -88,4 +88,14 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 ## 3. Normalization
 ### 3.1. Normalization
-#### 3.1.1. Atomic values
+#### 3.1.1. Atomic values - First normal form
+Our Relational model does not have any repeted data, so, our relational model is already in first normal form
+
+
+#### 3.1.2. Functional dependency - Second normal form
+All of the atributes in our relational model are fully dependent on the primary key of each table. Because of that, our relational model is also already in second normal form.
+
+
+#### 3.1.1. transitive partial dependency - Third normal form
+In our relational model could not be find any type of dependency between atributes of the same table. Because of that, our relational model is in third normal form and normalized completely.
+
