@@ -29,7 +29,7 @@ Proiekturako pasahitz bat aukeratu dugu: **`admin123`**.
 
 Ondoren, pasahitz honen karaktere bakoitza bere balio ASCIIra (binarioan) bihurtu dugu:
 
-* **a** $\rightarrow$ `01100001`
+* **a** --> `01100001`
 * **d** $\rightarrow$ `01100100`
 * **m** $\rightarrow$ `01101101`
 * **i** $\rightarrow$ `01101001`
