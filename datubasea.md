@@ -4,12 +4,12 @@ title: Datu-Baseak
 ---
 # Datu baseak - Proiektuaren Dokumentazioa
 
-## 1. Brainstorming eta ideia orokorra
+## 1. Brainstorming and general idea
 
 ### 1.1. Brainstorming 
 To begin with the database section, we opted to conduct a brainstorming session to generate as many ideas as possible for the project. Through this method, we managed to identify most of the entities and attributes that appear in the final database.
     
-### 1.2. Ideia orokorra 
+### 1.2. General idea 
 Once the brainstorming phase was completed, we set out to link all the gathered ideas in the most optimal way possible, while adapting them to our website vision. In this step, we designed an initial schema to make it as clear and easy to build as possible. Having done this will simplify the process when creating our E-R diagram
 
 
@@ -19,9 +19,9 @@ Once the brainstorming phase was completed, we set out to link all the gathered 
 
 ---
 
-## 2. E/R esquema
+## 2. E/R diagram
 
-### 2.1. Diseño definitivo E/R esquema
+### 2.1. Final Entity-Relationship (ER) diagram design
 With the workload greatly simplified thanks to the previous step, our task was reduced to three simple steps. First, we streamlined the schema to adapt it to our actual needs. At this point, we discarded the entire production section and the 'Komentario' entity so that the final design would not become overly extended. Second, we drew the schema on paper, including all attributes, defining the cardinalities, and applying the precise notation for everything. The third and final step was to correct various errors found along the way to arrive at the definitive draft.
 
 
@@ -31,8 +31,8 @@ With the workload greatly simplified thanks to the previous step, our task was r
 
 ---
 
-### 2.2. Digitalizar el E/R esquema
-With a clear draft defined, we decided to create a digitalized version to further refine our work and correct other errors discovered along the way. For this task, we chose to use Microsoft Visio. The process simply involved transferring what was drawn in pencil on paper to the app using its various shapes and connectors. To make the design even clearer, we used different colors for each element (for example, green for relationships).
+### 2.2. Digitize the E/R diagram   
+With a clear draft defined, we decided to create a digitize version to further refine our work and correct other errors discovered along the way. For this task, we chose to use Microsoft Visio. The process simply involved transferring what was drawn in pencil on paper to the app using its various shapes and connectors. To make the design even clearer, we used different colors for each element (for example, green for relationships).
 
 
 
@@ -99,3 +99,4 @@ All of the atributes in our relational model are fully dependent on the primary 
 #### 3.1.1. transitive partial dependency - Third normal form
 In our relational model could not be find any type of dependency between atributes of the same table. Because of that, our relational model is in third normal form and normalized completely.
 
+---
