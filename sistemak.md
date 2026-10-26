@@ -935,4 +935,7 @@ Eta beste gailu batetik DNS bidez:
 <img src="img/image83.jpg" alt="Irudia: Eta beste gailu batetik DNS bidez" width="260" style="max-width:100%;">
 </div>
 
+  ### PD: dokumentaizo hontan erabilitako IP guztiak aldatuak izan dira ez zirelako eskatzen zirenak, baina erakutsitako atal batzuk ez zuten funtzionatuko horrela ez bazen.
+
+
 </div>

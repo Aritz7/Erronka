@@ -29,14 +29,14 @@ Proiekturako pasahitz bat aukeratu dugu: **`admin123`**.
 
 Ondoren, pasahitz honen karaktere bakoitza bere balio ASCIIra (binarioan) bihurtu dugu:
 
-* **a** $\rightarrow$ `01100001`
-* **d** $\rightarrow$ `01100100`
-* **m** $\rightarrow$ `01101101`
-* **i** $\rightarrow$ `01101001`
-* **n** $\rightarrow$ `01101110`
-* **1** $\rightarrow$ `00110001`
-* **2** $\rightarrow$ `00110010`
-* **3** $\rightarrow$ `00110011`
+* **a** --> `01100001`
+* **d** --> `01100100`
+* **m** --> `01101101`
+* **i** --> `01101001`
+* **n** --> `01101110`
+* **1** --> `00110001`
+* **2** --> `00110010`
+* **3** --> `00110011`
 
 ---
 
@@ -46,6 +46,8 @@ Datuen osotasuna eta erroreen detekzioa bermatzeko, aukeratutako pasahitzari CRC
 * **Gehitutako CRC kodea:** `001000`
 
 Matea osoa (ASCII pasahitza + CRC) transmisiorako prest utzi dugu.
+
+![ASCII PASAHITZA](img/asciicontra.jpg)
 
 ---
 
