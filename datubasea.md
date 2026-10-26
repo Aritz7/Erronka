@@ -36,7 +36,7 @@ With a clear draft defined, we decided to create a digitize version to further r
 
 
 
-![Planifikazioaren irudia 1](img/DB4.png)
+![Planifikazioaren irudia 1](img/DB5.png)
 
 
 ---
