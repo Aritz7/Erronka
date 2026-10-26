@@ -84,9 +84,10 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 **Content + users** : ( <mark><u>IDusers</u></mark>, <mark><u>IDcontent</u></mark>, <u>time stamp</u>, <u>stop mark</u>, <u>feedback</u> ) 
 
-**Content + Genre** :
+**Content + Genre** : ( <mark><u>IDGenre</u></mark>, <mark><u>IDcontent</u></mark> )
 
 **Genre** : ( <u>IDgenre</u>, name, <mark>IDsubgenre</mark> )
+
 ---
 
 ## 3. Normalization
