@@ -98,3 +98,11 @@ Horrela funtzionatzen dute bi aldaerek:
   - **`0` bita:** Norabidea **mantentzen da**.
 
 ![MANCHESTER](img/manchester.jpg)
+
+---
+
+## 6. Kommutadoreen eta lan-estazioen konexioa
+Gailueen arteko konexioa frogatzeko ping komandoa erabili dugu 'cmd'-etik.
+
+![PING](img/Ping.jpg)![PING](img/Ping2.jpg)![PING](img/Ping3.jpg)
+
