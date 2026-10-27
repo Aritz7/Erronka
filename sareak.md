@@ -103,6 +103,15 @@ Horrela funtzionatzen dute bi aldaerek:
 
 ## 6. Kommutadoreen eta lan-estazioen konexioa
 Gailueen arteko konexioa frogatzeko ping komandoa erabili dugu 'cmd'-etik.
+- **1.** VirtualBox-etik ordenagailura:
 
-![PING](img/Ping.png)![PING](img/Ping1.png)![PING](img/Ping2.png)
+![PING](img/Ping.png)
+
+- **2.** Ordenagailutik VirtualBox-era:
+
+![PING](img/Ping1.png)
+
+- **3.** Sarean dagoen beste ordenagialu batetik VirtualBox-era:
+
+![PING](img/Ping2.png)
 
