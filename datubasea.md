@@ -36,7 +36,7 @@ With a clear draft defined, we decided to create a digitize version to further r
 
 
 
-![Planifikazioaren irudia 1](img/DB5.png)
+![Planifikazioaren irudia 1](img/DB6.png)
 
 
 ---
@@ -50,7 +50,7 @@ To fulfill this request, we begin with a user entity, through which we will coll
 
 Also, each user will acquire a plan to access our platform. The plans can be one of these 4: Individual basic, individual premium, family basic, and family premium. To keep this data correctly, we decided to create two different entities, “subscription” and “plan”. By making this division, we can identify which users are on the same family plan. On the plan entity, we will keep this information: Name, ID, Price per month, and description (explaining if the plan has ads…). On the subscription entity, we will keep: ID, Payment method, Duration, start date, renewal type (Automatic or manual). A user must have one subscription, and each subscription will have between 1 and 5 users (family plans maximum capacity of users will be 5). Each subscription is linked to a plan, and a plan can have multiple subscriptions.
 
-Additionally, each user will have a role, and a role can belong to multiple users. The web will only have 2 different roles, adults and kids. The role entity will keep the name, ID, and Access type (if it has complete access or access to under 18 content only). This entity is linked to a content entity. A role can allow multiple contents, and a content is allowed by 1 or 2 roles (because there are only 2 different roles); therefore, 18+ content will only be seen by adults, and children's content could be watched by kids and adults as well.
+Additionally, each user will have a role, and a role can belong to multiple users. The web will only have 2 different roles, adults and kids. The role entity will keep the name and ID. This entity is linked to a content entity. A role can allow multiple contents, and a content is allowed by 1 or 2 roles (because there are only 2 different roles); therefore, 18+ content will only be seen by adults, and children's content could be watched by kids and adults as well.
 
 The content entity will keep this information: Title, ID, minimum age required to watch, duration, amount of likes, and amount of dislikes. Also, this entity is linked to “user”; a user can watch no content or watch multiple contents, and each individual content can be watched by no users or by multiple users. Also, in the relationship, we will keep the stop marker, the feedback and the timestamp (we will know at what exact point of the content the user stopped watching it the last time).
 
@@ -68,7 +68,7 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 **Users** : ( <u>IDuser</u>, Name, password, date of birth, date of creation, email, <mark>IDsubscription</mark>, <mark>IDrole</mark> )
 
-**Role** : ( <u>IDrole</u>, Name, Access type )
+**Role** : ( <u>IDrole</u>, Name )
 
 **Content** : ( <u>IDcontent</u>, title, minimun age, duration, sumary )
 
