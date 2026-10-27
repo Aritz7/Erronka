@@ -104,5 +104,5 @@ Horrela funtzionatzen dute bi aldaerek:
 ## 6. Kommutadoreen eta lan-estazioen konexioa
 Gailueen arteko konexioa frogatzeko ping komandoa erabili dugu 'cmd'-etik.
 
-![PING](img/Ping.jpg)![PING](img/Ping2.jpg)![PING](img/Ping3.jpg)
+![PING](img/Ping.png)![PING](img/Ping2.png)![PING](img/Ping3.png)
 
