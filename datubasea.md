@@ -107,12 +107,13 @@ In our relational model could not be find any type of dependency between atribut
 ---
 
 ## 4. Access
-### 4.1. Constraints and integrity rules
+### 4.1. Constraints, integrity rules and registered data
 #### 4.1.1. Plan
 
 
 ![Planifikazioaren irudia 1](img/DB7.png)
 
+![Planifikazioaren irudia 1](img/DB20.png)
 
 exp
 
@@ -120,6 +121,8 @@ exp
 
 
 ![Planifikazioaren irudia 1](img/DB8.png)
+
+![Planifikazioaren irudia 1](img/DB21.png)
 
 
 exp
@@ -129,6 +132,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB9.png)
 
+![Planifikazioaren irudia 1](img/DB22.png)
 
 exp
 
@@ -137,6 +141,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB11.png)
 
+![Planifikazioaren irudia 1](img/DB23.png)
 
 exp
 
@@ -145,6 +150,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB14.png)
 
+![Planifikazioaren irudia 1](img/DB24.png)
 
 exp
 
@@ -153,6 +159,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB13.png)
 
+![Planifikazioaren irudia 1](img/DB25.png)
 
 exp
 
@@ -161,6 +168,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB12.png)
 
+![Planifikazioaren irudia 1](img/DB26.png)
 
 exp
 
@@ -169,6 +177,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB15.png)
 
+![Planifikazioaren irudia 1](img/DB27.png)
 
 exp
 
@@ -177,5 +186,33 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB16.png)
 
+![Planifikazioaren irudia 1](img/DB28.png)
+
+exp
+
+#### 4.1.3. Serie/season
+
+
+![Planifikazioaren irudia 1](img/DB17.png)
+
+![Planifikazioaren irudia 1](img/DB29.png)
+
+exp
+
+#### 4.1.3. Genre
+
+
+![Planifikazioaren irudia 1](img/DB18.png)
+
+![Planifikazioaren irudia 1](img/DB30.png)
+
+exp
+
+#### 4.1.3. Genre + content
+
+
+![Planifikazioaren irudia 1](img/DB19.png)
+
+![Planifikazioaren irudia 1](img/DB31.png)
 
 exp
