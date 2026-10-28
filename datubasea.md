@@ -60,6 +60,7 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 
 ---
+
 ## 3. Relational model
 ### 3.1. Relational model
 **Plan** : ( <u>IDplan</u>, name, price, description )
@@ -86,7 +87,7 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 **Content + Genre** : ( <mark><u>IDGenre</u></mark>, <mark><u>IDcontent</u></mark> )
 
-**Genre** : ( <u>IDgenre</u>, name, <mark>IDsubgenre</mark> )
+**Genre** : ( <u>IDgenre</u>, name, <mark>IDgenre(Group)</mark> )
 
 ---
 
@@ -104,3 +105,77 @@ All of the atributes in our relational model are fully dependent on the primary 
 In our relational model could not be find any type of dependency between atributes of the same table. Because of that, our relational model is in third normal form and normalized completely.
 
 ---
+
+## 4. Access
+### 4.1. Constraints and integrity rules
+#### 4.1.1. Plan
+
+
+![Planifikazioaren irudia 1](img/DB7.png)
+
+
+exp
+
+#### 4.1.2. Subscription
+
+
+![Planifikazioaren irudia 1](img/DB8.png)
+
+
+exp
+
+#### 4.1.3. User
+
+
+![Planifikazioaren irudia 1](img/DB9.png)
+
+
+exp
+
+#### 4.1.4. Role
+
+
+![Planifikazioaren irudia 1](img/DB11.png)
+
+
+exp
+
+#### 4.1.5. Content + User
+
+
+![Planifikazioaren irudia 1](img/D14.png)
+
+
+exp
+
+#### 4.1.6. Content + Role
+
+
+![Planifikazioaren irudia 1](img/DB13.png)
+
+
+exp
+
+#### 4.1.3. Content
+
+
+![Planifikazioaren irudia 1](img/DB12.png)
+
+
+exp
+
+#### 4.1.3. Film and documentary
+
+
+![Planifikazioaren irudia 1](img/DB15.png)
+
+
+exp
+
+#### 4.1.3. Episode
+
+
+![Planifikazioaren irudia 1](img/DB16.png)
+
+
+exp
