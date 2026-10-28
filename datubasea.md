@@ -143,7 +143,7 @@ exp
 #### 4.1.5. Content + User
 
 
-![Planifikazioaren irudia 1](img/D14.png)
+![Planifikazioaren irudia 1](img/DB14.png)
 
 
 exp
