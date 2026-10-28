@@ -115,7 +115,8 @@ In our relational model could not be find any type of dependency between atribut
 
 ![Planifikazioaren irudia 1](img/DB20.png)
 
-exp
+
+A column for automatically assigning the ID, a column for writing the plan name, a column with the "Currency" format to record the price, and a column for writing the plan description.
 
 #### 4.1.2. Subscription
 
@@ -125,7 +126,7 @@ exp
 ![Planifikazioaren irudia 1](img/DB21.png)
 
 
-exp
+A column for automatically assigning the ID, a column for choosing between four different payment method types with selection restricted to that list, a column for choosing between manual or automatic renewal (the latter being the default value), a column for the subscription duration in months with a maximum value of 12 months, a column for the subscription start date which must be later than 02/02/2026 (hypothetical website creation date), and a final column for the plan's foreign key. We have decided that all default values for the numerical format of this item and all others should be empty to make typing easier. Similarly, the columns storing dates in this item and the rest must default to the date of the day the entry is being written (while still allowing dates from 02/02/2026 onwards) and, if an incorrect date is entered, display this message: “This date can not be possible”.
 
 #### 4.1.3. User
 
@@ -134,7 +135,8 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB22.png)
 
-exp
+
+A column for automatically assigning the ID, a column for writing the name (maximum 20 characters), and another for writing the email. In these 2 columns, duplicate names or emails will not be allowed. Another column for the password (maximum 20 characters), another column for the date of birth (02/02/1926 being the minimum date because there will be no people older than 100 years), another column for the account creation date (minimum date 02/02/2026). Another column for the subscription ID and another for the role ID.
 
 #### 4.1.4. Role
 
@@ -143,7 +145,8 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB23.png)
 
-exp
+
+A column for automatically assigning the ID, a column for writing the plan name.
 
 #### 4.1.5. Content + User
 
@@ -152,7 +155,8 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB24.png)
 
-exp
+
+A column for the user ID and another for the content ID. Another column for the timestamp formatted as dd/mm/yyyy hh:nn:ss to also display hours, minutes, and seconds, with a minimum date of 02/02/2026. Another column for the stop mark formatted as hh:nn:ss with a default value of 0:00:00. And a final column to choose between like, dislike, and no feedback, with the latter being the default.
 
 #### 4.1.6. Content + Role
 
@@ -161,7 +165,8 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB25.png)
 
-exp
+
+A column to store the content ID and another column for the role
 
 #### 4.1.3. Content
 
@@ -170,16 +175,17 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB26.png)
 
-exp
 
-#### 4.1.3. Film and documentary
+A column for automatically assigning the ID, a column for writing the title of the work, a column to choose from a list between +18 or -18, another column to save the duration in long time format with a default value of 0:00:00, and another column to write the summary.
+
+#### 4.1.3. Film and documentary (They had the same characteristics)
 
 
 ![Planifikazioaren irudia 1](img/DB15.png)
 
 ![Planifikazioaren irudia 1](img/DB27.png)
 
-exp
+A single column to write the content id
 
 #### 4.1.3. Episode
 
@@ -188,7 +194,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB28.png)
 
-exp
+A column to write the content id and other column to write the season id
 
 #### 4.1.3. Serie/season
 
@@ -197,7 +203,7 @@ exp
 
 ![Planifikazioaren irudia 1](img/DB29.png)
 
-exp
+A column for automatically assigning the ID, and another column for writing the series title and which season it is.
 
 #### 4.1.3. Genre
 
