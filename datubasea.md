@@ -40,7 +40,6 @@ With a clear draft defined, we decided to create a digitize version to further r
 [Visio](./Files/Drawing_Erronka-1.vsdx)
 
 
----
 
 ### 2.3. Explanation
 **Data base explanation:**
