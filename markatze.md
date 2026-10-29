@@ -7,7 +7,7 @@ title: Markatze Lengoaiak
 
 ## 1. Weborriaren Garapena
 
-Proiektu honen weborria **HTML5** eta **CSS3** erabiliz garatu dugu, beste liburutegi edo framework-ik gabe. Weborriak bi fitxategi nagusi ditu: `index.html` (egitura) eta `style.css` (itxura).
+Proiektu honen weborria **HTML** eta **CSS** erabiliz garatu dugu, beste liburutegi edo framework-ik gabe. Weborriak bi fitxategi nagusi ditu: `index.html` (egitura) eta `style.css` (itxura).
 
 ![markatzeirudia1](img/markatzeirudia1.png)
 ![markatzeirudia2](img/markatzeirudia2.png)
