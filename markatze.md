@@ -92,3 +92,4 @@ JavaScript erabili gabe, **CSS-ko `:hover` pseudo-klasea** erabili dugu interakt
 └── img/
     ├── erabiltzailea.png
     └── infogramak-UNI-45-e1620890341119-1.png
+```
