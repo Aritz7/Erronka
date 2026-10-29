@@ -26,7 +26,7 @@ Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kud
 * **Lan-Ingurunearen Eraldaketa:** Lanpostu teknologiko berriak sortzen ditu eta barne-komunikazio nahiz elkarlana azkartzen ditu.
 
 ### Eragina Ekoizpen-Sektoreetan
-* **Lehen Sektorea (Nekazaritza/Abeltzaintza):** Sentsore bidezko ureztatze automatizatua, droneen bidezko soro-azterketa eta abereen jarraipen digitala.
+* **Lehen Sektorea (Nekazaritza/Abeltzaintza):**   Sentsore bidezko ureztatze automatizatua, droneen bidezko soro-azterketa eta abereen jarraipen digitala.
 * **Bigarren Sektorea (Industria/Fabrikazioa):*** 4.0 Industria, robotika kolaboratiboa, ekoizpen-kate automatizatuak eta mantentze prediktiboa.
 * **Hirugarren Sektorea (Zerbitzuak/Merkataritza):** Merkataritza elektronikoa (e-commerce), bezeroen kudeaketa digitala (CRM) eta logistika adimenduna.
 
@@ -118,15 +118,25 @@ Teknologia Gaitzaile Digitalak (TGD) eraldaketa digitala ahalbidetzen duten eta 
 ---
 
 ### 2.4. Cloudean Oinarritutako Sistemak (Cloud Computing)
-Cloud computing-a Internet bidez eskuragarri dauden baliabide informatikoak (zerbitzariak, biltegiratzea, aplikazioak) urrunetik erabiltzeko eredua da, azpiegitura fisiko lokal baten mende egon gabe.
 
-**Ezaugarriak eta Mailak:**
-* **Eredu Tradizionala vs Hodeia:** Eredu tradizionalean datuak eta programak gailu lokalean instalatzen eta gordetzen dira; hodeian, berriz, edozein gailutatik atzitu daitezke Internet bidez, biltegiratze lokala muga izan gabe.
-* **Hodei motak:** Publikoa, Pribatua eta Hibridoa.
-* **Zerbitzu Ereduak (Kontenedoreak):**
-  * **IaaS (Infrastructure as a Service):** Azpiegitura birtuala alokatzea (adib. Azure VM, Amazon EC2).
-  * **PaaS (Platform as a Service):** Aplikazioak garatzeko plataforma (adib. Google App Engine).
-  * **SaaS (Software as a Service):** Erabiltzeko prest dauden software-aplikazioak (adib. Google Workspace, Microsoft 365).
-* **Eboluzioa (Fog / Edge / Mist Computing):** Hodeiko latentzia eta banda-zabalera hobetzeko, prozesamendua datu-iturritik gertuago egiteko garatutako teknologiak.
+Cloud Computing-a Internet bidez eskuragarri dauden baliabide informatikoak (zerbitzariak, biltegiratzea, aplikazioak) urrunetik erabiltzeko eredua da, azpiegitura fisiko lokal baten mende egon gabe.
 
+### 1. Hodei Mailak (Cloud Deployment Models)
+* **Hodei Publikoa:** Hirugarren hornitzaile baten azpiegitura (Google Cloud, AWS, Azure). Internet bidez edonorentzat eskuragarri dago, merkea da eta ez du mantentze-lanik eskatzen.
+* **Hodei Pribatua:** Erakunde edo enpresa bakar baten erabilera esklusiborako azpiegitura. Segurtasun eta kontrol handiena eskaintzen du, baina inbertsio garestiagoa da.
+* **Hodei Hibridoa:** Hodei publikoaren eta pribatuaren arteko nahasketa. Datu kritikoak eta sentikorrak pribatuan gordetzen dira, eta gainerako kargak publikoan kudeatzen dira.
+
+### 2. Hodeiko Zerbitzu Ereduak (Cloud Service Models)
+* **IaaS (*Infrastructure as a Service*):** Azpiegitura birtuala alokatzen da (zerbitzariak, biltegiratzea, sareak). Zuk sistema eragilea eta aplikazioak kudeatzen dituzu. 
+  * *Adibideak:* AWS EC2, Google Compute Engine, Microsoft Azure VMs.
+* **PaaS (*Platform as a Service*):** Softwarea garatzeko eta zabaltzeko plataforma eskaintzen du. Azpiegitura hornitzaileak zaintzen du eta zuk aplikazioaren kodea bakarrik kudeatzen duzu.
+  * *Adibideak:* Heroku, Google App Engine, Firebase.
+* **SaaS (*Software as a Service*):** Erabiltzeko prest dagoen azken aplikazioa da, Internet bidez atzitzen dena. Ez da inongo azpiegiturarik kudeatu behar.
+  * *Adibideak:* Google Workspace (Drive, Gmail), Microsoft 365, Spotify.
+
+### 3. Prozesamendu Mailak (Prozesamendua iturritik urrunenetik gertuenera)
+* **Cloud Computing:** Urruneko datu-zentro erraldoietan prozesatzen da Internet bidez. Biltegiratze masiboa (Big Data) eta analisi orokorrak egiteko.
+* **Fog Computing:** Tokiko sareko zerbitzarietan edo switch indartsuetan prozesatzen da (Edge eta Cloud arteko maila). Hainbat gailuren datuak biltzen eta iragazten ditu.
+* **Edge Computing:** Sareko gailu lokalean bertan prozesatzen da (router, atebide/gateway edo PLC kontrolatzailean). Latentzia oso txikia eta berehalako erantzuna lortzen da.
+* **Mist Computing:** Datuak sentsorearen edo mikrodispositivoaren barruko txipean bertan prozesatzen dira, inolako sare-gailuren mende egon gabe. Latentzia nulua eskaintzen du.
 
