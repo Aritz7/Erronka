@@ -91,24 +91,23 @@ To conclude, we will keep the genre and subgenres of the content. To do this, we
 
 ---
 
-## 3. Normalization
-### 3.1. Normalization
-#### 3.1.1. Atomic values - First normal form
+## 4. Normalization
+### 4.1. Atomic values - First normal form
 Our Relational model does not have any repeted data, so, our relational model is already in first normal form
 
 
-#### 3.1.2. Functional dependency - Second normal form
+### 4.2. Functional dependency - Second normal form
 All of the atributes in our relational model are fully dependent on the primary key of each table. Because of that, our relational model is also already in second normal form.
 
 
-#### 3.1.1. transitive partial dependency - Third normal form
+#### 4.3. transitive partial dependency - Third normal form
 In our relational model could not be find any type of dependency between atributes of the same table. Because of that, our relational model is in third normal form and normalized completely.
 
 ---
 
-## 4. Access
-### 4.1. Constraints, integrity rules and registered data
-#### 4.1.1. Plan
+## 5. Access
+### 5.1. Constraints, integrity rules and registered data
+#### 5.1.1. Plan
 
 
 ![Planifikazioaren irudia 1](img/DB7.png)
@@ -118,7 +117,7 @@ In our relational model could not be find any type of dependency between atribut
 
 A column for automatically assigning the ID, a column for writing the plan name, a column with the "Currency" format to record the price, and a column for writing the plan description.
 
-#### 4.1.2. Subscription
+#### 5.1.2. Subscription
 
 
 ![Planifikazioaren irudia 1](img/DB8.png)
@@ -128,7 +127,7 @@ A column for automatically assigning the ID, a column for writing the plan name,
 
 A column for automatically assigning the ID, a column for choosing between four different payment method types with selection restricted to that list, a column for choosing between manual or automatic renewal (the latter being the default value), a column for the subscription duration in months with a maximum value of 12 months, a column for the subscription start date which must be later than 02/02/2026 (hypothetical website creation date), and a final column for the plan's foreign key. We have decided that all default values for the numerical format of this item and all others should be empty to make typing easier. Similarly, the columns storing dates in this item and the rest must default to the date of the day the entry is being written (while still allowing dates from 02/02/2026 onwards) and, if an incorrect date is entered, display this message: “This date can not be possible”.
 
-#### 4.1.3. User
+#### 5.1.3. User
 
 
 ![Planifikazioaren irudia 1](img/DB9.png)
@@ -138,7 +137,7 @@ A column for automatically assigning the ID, a column for choosing between four 
 
 A column for automatically assigning the ID, a column for writing the name (maximum 20 characters), and another for writing the email. In these 2 columns, duplicate names or emails will not be allowed. Another column for the password (maximum 20 characters), another column for the date of birth (02/02/1926 being the minimum date because there will be no people older than 100 years), another column for the account creation date (minimum date 02/02/2026). Another column for the subscription ID and another for the role ID.
 
-#### 4.1.4. Role
+#### 5.1.4. Role
 
 
 ![Planifikazioaren irudia 1](img/DB11.png)
@@ -148,7 +147,7 @@ A column for automatically assigning the ID, a column for writing the name (maxi
 
 A column for automatically assigning the ID, a column for writing the plan name.
 
-#### 4.1.5. Content + User
+#### 5.1.5. Content + User
 
 
 ![Planifikazioaren irudia 1](img/DB14.png)
@@ -158,7 +157,7 @@ A column for automatically assigning the ID, a column for writing the plan name.
 
 A column for the user ID and another for the content ID. Another column for the timestamp formatted as dd/mm/yyyy hh:nn:ss to also display hours, minutes, and seconds, with a minimum date of 02/02/2026. Another column for the stop mark formatted as hh:nn:ss with a default value of 0:00:00. And a final column to choose between like, dislike, and no feedback, with the latter being the default.
 
-#### 4.1.6. Content + Role
+#### 5.1.6. Content + Role
 
 
 ![Planifikazioaren irudia 1](img/DB13.png)
@@ -168,7 +167,7 @@ A column for the user ID and another for the content ID. Another column for the 
 
 A column to store the content ID and another column for the role
 
-#### 4.1.3. Content
+#### 5.1.7. Content
 
 
 ![Planifikazioaren irudia 1](img/DB12.png)
@@ -178,7 +177,7 @@ A column to store the content ID and another column for the role
 
 A column for automatically assigning the ID, a column for writing the title of the work, a column to choose from a list between +18 or -18, another column to save the duration in long time format with a default value of 0:00:00, and another column to write the summary.
 
-#### 4.1.3. Film and documentary (They had the same characteristics)
+#### 5.1.8. Film and documentary (They had the same characteristics)
 
 
 ![Planifikazioaren irudia 1](img/DB15.png)
@@ -187,7 +186,7 @@ A column for automatically assigning the ID, a column for writing the title of t
 
 A single column to write the content id
 
-#### 4.1.3. Episode
+#### 5.1.9. Episode
 
 
 ![Planifikazioaren irudia 1](img/DB16.png)
@@ -196,7 +195,7 @@ A single column to write the content id
 
 A column to write the content id and other column to write the season id
 
-#### 4.1.3. Serie/season
+#### 5.1.10. Serie/season
 
 
 ![Planifikazioaren irudia 1](img/DB17.png)
@@ -205,20 +204,34 @@ A column to write the content id and other column to write the season id
 
 A column for automatically assigning the ID, and another column for writing the series title and which season it is.
 
-#### 4.1.3. Genre
+#### 5.1.11. Genre
 
 
 ![Planifikazioaren irudia 1](img/DB18.png)
 
 ![Planifikazioaren irudia 1](img/DB30.png)
 
-exp
+A column for automatically assigning the ID, a column for writing the genre name, and a final column in case this genre is a subgenre, to assign it the ID of the genre it belongs to.
 
-#### 4.1.3. Genre + content
+#### 5.1.12. Genre + content
 
 
 ![Planifikazioaren irudia 1](img/DB19.png)
 
 ![Planifikazioaren irudia 1](img/DB31.png)
 
-exp
+A column to write the content ID and another column to write the genre ID.
+
+
+### 5.2. Operations of addition and elimination
+#### 5.2.1. Addition
+Adding information is simple, because in all situations you act in the same way. If it is an independent table (it does not have any foreign key), you add the data and it's done. On the other hand, for a table with foreign keys, you would have to enter a real and pre-existing value in that section so that the system validates it. Finally, M:N relationship tables work in the same way, as they depend on foreign keys.
+
+#### 5.2.2. Elimination
+When deleting information, the process is carried out in the reverse order; that is, you must first delete the records from the tables that depend on others. For example, you cannot delete a series or season that is currently being used in the episodes table, because it would leave that dependency inconsistent.
+
+![Planifikazioaren irudia 1](img/DB32.png)
+
+
+## 6. conclusion
+In conclusion, implementing a Database Management System (DBMS) offers major advantages over simple files by keeping information organized and avoiding duplicates—such as safely saving usernames, for example carlos_dev88, and storing Inception’s genre details in a single place. Ultimately, improper use of the database or poor implementation leads to critical failures, such as mismatched information when updates are forgotten and broken links that generate orphan records throughout the system.
