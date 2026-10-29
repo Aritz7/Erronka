@@ -26,9 +26,9 @@ Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kud
 * **Lan-Ingurunearen Eraldaketa:** Lanpostu teknologiko berriak sortzen ditu eta barne-komunikazio nahiz elkarlana azkartzen ditu.
 
 ### Eragina Ekoizpen-Sektoreetan
-* **Lehen Sektorea (Nekazaritza/Abeltzaintza):** Sentsore bidezko ureztatze automatizatua, droneen bidezko soro-azterketa eta abereen jarraipen digitala.
-* **Bigarren Sektorea (Industria/Fabrikazioa):** 4.0 Industria, robotika kolaboratiboa, ekoizpen-kate automatizatuak eta mantentze prediktiboa.
-* **Hirugarren Sektorea (Zerbitzuak/Merkataritza):** Merkataritza elektronikoa (e-commerce), bezeroen kudeaketa digitala (CRM) eta logistika adimenduna.
+* *Lehen Sektorea (Nekazaritza/Abeltzaintza):* Sentsore bidezko ureztatze automatizatua, droneen bidezko soro-azterketa eta abereen jarraipen digitala.
+* *Bigarren Sektorea (Industria/Fabrikazioa):* 4.0 Industria, robotika kolaboratiboa, ekoizpen-kate automatizatuak eta mantentze prediktiboa.
+* *Hirugarren Sektorea (Zerbitzuak/Merkataritza):* Merkataritza elektronikoa (e-commerce), bezeroen kudeaketa digitala (CRM) eta logistika adimenduna.
 ---
 
 ### 2.2. IT eta OT Teknologiak
