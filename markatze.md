@@ -75,7 +75,9 @@ JavaScript erabili gabe, **CSS-ko `:hover` pseudo-klasea** erabili dugu interakt
 ```
 1-Erronka-WEB-ORRIA/
 ├── index.html
+|   |   └── style.css
 ├── dokumentazioa.html
+|   |   └── style_dokumentazioa.css
 |   ├── sareak.html
 |   |   └── style_sareak.css
 |   ├── sistemaeragileak.html
@@ -88,6 +90,5 @@ JavaScript erabili gabe, **CSS-ko `:hover` pseudo-klasea** erabili dugu interakt
 |   |   └── style_saioahasi.css
 |   └── Erregistroa.html
 |       └── style_erregistroa.css
-├── style.css
 └── img/
 ```
