@@ -72,7 +72,6 @@ JavaScript erabili gabe, **CSS-ko `:hover` pseudo-klasea** erabili dugu interakt
 
 ### 2.5. Fitxategien Antolaketa
 
-```text
 1-Erronka-WEB-ORRIA/
 ├── index.html
 ├── dokumentazioa.html
