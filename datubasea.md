@@ -16,7 +16,6 @@ Once the brainstorming phase was completed, we set out to link all the gathered 
 
 ![Planifikazioaren irudia 1](img/DB1.jpg)
 
-
 ---
 
 ## 2. E/R diagram
@@ -29,7 +28,6 @@ With the workload greatly simplified thanks to the previous step, our task was r
 ![Planifikazioaren irudia 1](img/DB2.jpg)
 
 
----
 
 ### 2.2. Digitize the E/R diagram   
 With a clear draft defined, we decided to create a digitize version to further refine our work and correct other errors discovered along the way. For this task, we chose to use Microsoft Visio. The process simply involved transferring what was drawn in pencil on paper to the app using its various shapes and connectors. To make the design even clearer, we used different colors for each element (for example, green for relationships).
@@ -37,6 +35,9 @@ With a clear draft defined, we decided to create a digitize version to further r
 
 
 ![Planifikazioaren irudia 1](img/DB6.png)
+
+
+[Visio](./Files/Drawing_Erronka-1.vsdx)
 
 
 ---
@@ -232,10 +233,13 @@ When deleting information, the process is carried out in the reverse order; that
 
 ![Planifikazioaren irudia 1](img/DB32.png)
 
+[Access](./Files/Erronka-1.accdb)
+
+---
 
 ## 6. conclusion
 Implementing a Database Management System (DBMS) offers big advantages over simple text files by keeping information organized and avoiding duplicates—such as saving user usernames like carlos_dev88 safely and keeping Inception's genre details in one single place. On the other hand, storing data in messy files or basic spreadsheets causes bad problems like mismatched info when updates are forgotten and broken links that leave orphan records all over the system. 
 
-[Access](./Files/Erronka-1.accdb)
+---
 
-[Visio](./Files/Drawing_Erronka-1.vsdx)
+
