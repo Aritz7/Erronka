@@ -17,19 +17,43 @@ Proiektu honen lehenengo urratsetan, lan-karga eta atazak modu eraginkorrean kud
 ## 2. Digitalizazioaren Oinarrizko Kontzeptuak
 
 ### 2.1. Digitalizazioa 
-Digitalizazioa prozesu, produktu eta zerbitzu tradizionalak eraldatzeko prozesua da, teknologia digitalak erabiliz. Ez da soilik zereginak informatizatzea, baizik eta erakunde baten funtzionamendua, ekoizpena eta erabakiak hartzeko modua birdefinitzea.
-- **Abantailak:** Eraginkortasuna eta zehaztasuna hobetzen ditu, lana arintzen du, komunikazioa azkartzen du eta negozio-aukera berriak sortzen ditu.
-- **Eragina enpresan:** Lanpostu berriak sortzea, lan egiteko moduak eta komunikazioa aldatzea, eta erabakiak denbora errealean hartzea ahalbidetzen du.
+**Digitalizazioa** prozesu, produktu eta zerbitzu tradizionalak eraldatzeko prozesua da, teknologia digitalen erabilera integralaren bidez. Ez da soilik lan-zereginak informatizatzea edo paperak ordenagailura pasatzea, baizik eta erakunde baten funtzionamendua, ekoizpen-eredua eta erabakiak hartzeko modua errotik birdefinitzea.
 
+### Abantailak eta Enpresa-Eragina
+* **Eraginkortasuna eta Zehaztasuna:** Akats giza-faktoreak gutxitzen ditu eta baliabideen erabilera optimizatzen du.
+* **Erabakiak Denbora Errealean:** Datuen analitikari esker, enpresak berehala egokitu daitezke merkatuko edo ekoizpeneko aldaketetara.
+* **Negozio-Eredu Berriak:** Zerbitzu digital berriak, harpidetza-sistemak eta pertsonalizaturiko produktuak sortzea ahalbidetzen du.
+* **Lan-Ingurunearen Eraldaketa:** Lanpostu teknologiko berriak sortzen ditu eta barne-komunikazio nahiz elkarlana azkartzen ditu.
+
+### Eragina Ekoizpen-Sektoreetan
+* **Lehen Sektorea (Nekazaritza/Abeltzaintza):** Sentsore bidezko ureztatze automatizatua, droneen bidezko soro-azterketa eta abereen jarraipen digitala.
+* **Bigarren Sektorea (Industria/Fabrikazioa):** 4.0 Industria, robotika kolaboratiboa, ekoizpen-kate automatizatuak eta mantentze prediktiboa.
+* **Hirugarren Sektorea (Zerbitzuak/Merkataritza):** Merkataritza elektronikoa (e-commerce), bezeroen kudeaketa digitala (CRM) eta logistika adimenduna.
 ---
 
 ### 2.2. IT eta OT Teknologiak
 Eraldaketa digitalean bi teknologia-talde nagusi bereizten dira:
 
-* **IT (Informazioaren Teknologiak):** Datuak prozesatzera eta informazioa kudeatzera bideratutako tresna digitalak dira. Enpresaren "garuna" bezalakoak dira (softwareak, datu-baseak, sareak).
-* **OT (Operazio Teknologiak):** Prozesu fisikoak kontrolatu eta automatizatzen dituzten gailuak dira. Enpresaren "besoak eta hankak" dira (sentsoreak, beso robotikoak, PLCak, SCADA sistemak).
+* **IT (Informazioaren Teknologiak):** 
+Datuak prozesatzera, biltegiratzera eta informazioa kudeatzera bideratutako tresna digitalak dira. Enpresaren **"garuna"** bezala ezagutzen da.
 
-Bi ingurune hauen arteko integrazioak (IT/OT konbergentzia) mantentze prediktiboa, ekoizpen malgua eta denbora errealeko kontrola hobetzea lortzen du.
+* **Funtzio nagusia:** Enpresako informazio-fluxua, komunikazioa eta negozio-kudeaketa bideratzea.
+* **Adibideak:**
+  * **ERP (Enterprise Resource Planning):** SAP edo Odoo bezalako kudeaketa-softwareak.
+  * **CRM (Customer Relationship Management):** Bezeroekiko harremanak kudeatzeko sistemak.
+  * **Datu-baseak eta Zerbitzariak:** PostgreSQL, MySQL, Hodeiko zerbitzariak.
+  * **Sare-Azpiegitura:** Bideratzaileak (routers), Switch-ak eta Enpresa-WIFIak.
+
+* **OT (Operazio Teknologiak):** 
+Prozesu fisikoak zuzenean kontrolatu, monitorizatu eta automatizatzen dituzten gailu hardware zein softwareak dira. Enpresaren **"besoak eta hankak"** dira.
+
+* **Funtzio nagusia:** Mundu fisikoan eragitea (mugitu, moztu, tenperatura erregulatu, balbulak ireki).
+* **Adibideak:**
+  * **PLC (Automata Programagarria):** Industria-makinak kontrolatzen dituen ordenagailu txikia.
+  * **SCADA Sistemak:** Lantegiko prozesu fisikoak denbora errealean ikuskatzeko eta kontrolatzeko interfazeak.
+  * **Sentsore Industrialak:** Tenperatura, presioa edo presentzia hautematen duten gailuak.
+  * **Beso Robotikoak eta Aktuatzaileak:** Produktuak mugitu, kaxak kargatu edo soldadura lanak egiten dituzten robotak.
+
 
 ---
 
@@ -60,3 +84,5 @@ Cloud computing-a Internet bidez eskuragarri dauden baliabide informatikoak (zer
   * **PaaS (Platform as a Service):** Aplikazioak garatzeko plataforma (adib. Google App Engine).
   * **SaaS (Software as a Service):** Erabiltzeko prest dauden software-aplikazioak (adib. Google Workspace, Microsoft 365).
 * **Eboluzioa (Fog / Edge / Mist Computing):** Hodeiko latentzia eta banda-zabalera hobetzeko, prozesamendua datu-iturritik gertuago egiteko garatutako teknologiak.
+
+
