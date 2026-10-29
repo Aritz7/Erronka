@@ -58,18 +58,63 @@ Prozesu fisikoak zuzenean kontrolatu, monitorizatu eta automatizatzen dituzten g
 ---
 
 ### 2.3. Teknologia Gaitzaile Digitalak (TGD / THD)
-Eraldaketa digitala ahalbidetzen duten eta gaitasun zein negozio-eredu berriak garatzen laguntzen duten puntako teknologiak dira.
 
-**TGD nagusiak:**
-1. **Gauzen Interneta (IoT):** Gailu fisikoak Internetera konektatzea.
-2. **Adimen Artifiziala (IA):** Makinek ikasi eta erabakiak hartzeko gaitasuna.
-3. **Big Data:** Datu-bolumen handien analisia.
-4. **Cloud Computing:** Konputazioa eta biltegiratzea hodeian.
-5. **Zibersegurtasuna:** Sistemak eta datuak mehatxuetatik babestea.
-6. **Errealitate Birtuala eta Areagotua (VR/AR):** Esperientzia murgiltzaileak.
-7. **Beste batzuk:** Blockchain, 5G, Robotika, 3D Inprimaketa eta Biometria.
+Teknologia Gaitzaile Digitalak (TGD) eraldaketa digitala ahalbidetzen duten eta gaitasun zein negozio-eredu berriak garatzen laguntzen duten puntako teknologiak dira.
 
-**Ezaugarri nagusiak:** Moldakortasuna, automatizazioa, interkonexioa, eskalagarritasuna eta eraginkortasunaren hobekuntza.
+**11 TGD Nagusiak:**
+
+1. **Gauzen Interneta (IoT - Internet of Things):** 
+   * Gailu eta sentsore fisikoak Internetera konektatzea datuak denbora errealean biltzeko eta trukatzeko.
+   * *Adibidea:* Landareen hezetasuna neurtzen duten sentsoreak edo etxeko termostato adimendunak.
+
+2. **Adimen Artifiziala (IA - Artificial Intelligence):** 
+   * Makinek eta sistemek datuetatik ikasi, ereduak hauteman eta erabakiak autonomoki hartzeko gaitasuna.
+   * *Adibidea:* Bezeroei erantzuten dieten txatbotak edo GitHub Copilot bezalako kode-laguntzaileak.
+
+3. **Big Data eta Datuen Analitika:** 
+   * Ohiko software bidez kudeatu ezin diren datu-bolumen handiak biltzea, prozesatzea eta aztertzea.
+   * *Adibidea:* Sare sozialetako milioika erabiltzaileren joerak aztertzea gomendioak egiteko.
+
+4. **Cloud Computing (Hodeiko Konputazioa):** 
+   * Konputazio-baliabideak (zerbitzariak, biltegiratzea, softwarea) Internet bidez eskatuz gero atzitzea.
+   * *Adibidea:* Google Drive, GitHub edo AWS zerbitzariak.
+
+5. **Zibersegurtasuna:** 
+   * Informazio-sistemak, sareak, gailuak eta datuak baimenik gabeko sarbideetatik zein ziber-mehatxuetatik babestea.
+   * *Adibidea:* Bi faktoreko autentifikazioa (2FA) eta datu-enkriptazioa.
+
+6. **Errealitate Birtuala eta Areagotua (VR/AR):** 
+   * **VR:** Ingurune %100 simulatua eta murgiltzailea sortzea.
+   * **AR:** Mundu errealaren gainean informazio edo elementu digitalak gainjartzea.
+   * *Adibidea:* Kirurgialarien entrenamendurako simuladoreak (VR) edo mantentze-lanetarako gida-bisualak (AR).
+
+7. **Blockchain (Katea-Blokeak):** 
+   * Datu-base deszentralizatua eta aldaezina, transakzioak modu seguruan eta bitartekaririk gabe erregistratzeko.
+   * *Adibidea:* Kriptomonetak edo kontratu adimendunak (*smart contracts*).
+
+8. **5G eta Konektibitate Aurreratua:** 
+   * Abiadura handiko, edukiera zabaleko eta latentzia oso txikiko haririk gabeko sareak.
+   * *Adibidea:* Kirurgia urrunetik egitea edo ibilgailu autonomoen arteko berehalako komunikazioa.
+
+9. **Robotika Aurreratua:** 
+   * Zeregin fisiko konplexuak automatizatzen dituzten robot autonomo edo kolaboratiboak (*cobots*).
+   * *Adibidea:* Biltegietan kaxak garraiatzen dituzten robot autonomoak.
+
+10. **3D Inprimaketa (Fabrikazio Gehitua):** 
+    * Eredu digital baten bidez objektu fisiko hiru dimentsionalak geruzaz geruza sortzeko teknologia.
+    * *Adibidea:* Protezi mediko pertsonalizatuak edo industriarako ordezko piezak fabrikatzea.
+
+11. **Biometria:** 
+    * Pertsonak beren ezaugarri fisiko edo portaerazkoen bidez (hatz-marka, aurpegia, irisa) identifikatzeko teknologia.
+    * *Adibidea:* Mugikorra aurpegiarekin desblokeatzea edo eraikinetako sarbide-kontrola.
+
+---
+
+**TGD-en Ezaugarri Nagusiak:**
+* **Interkonexioa:** Gailu eta sistema guztiak beren artean komunikatzeko gaitasuna.
+* **Automatizazioa:** Giza esku-hartze gutxirekin prozesu konplexuak egitea.
+* **Eskalagarritasuna:** Enpresaren beharren arabera baliabideak erraz handitzeko edo txikitzeko ahalmena.
+* **Moldakortasuna:** Negozio-eredu berrietara eta merkatuaren aldaketetara azkar egokitzea.
 
 ---
 
