@@ -234,4 +234,4 @@ When deleting information, the process is carried out in the reverse order; that
 
 
 ## 6. conclusion
-In conclusion, implementing a Database Management System (DBMS) offers major advantages over simple files by keeping information organized and avoiding duplicates—such as safely saving usernames, for example carlos_dev88, and storing Inception’s genre details in a single place. Ultimately, improper use of the database or poor implementation leads to critical failures, such as mismatched information when updates are forgotten and broken links that generate orphan records throughout the system.
+Implementing a Database Management System (DBMS) offers big advantages over simple text files by keeping information organized and avoiding duplicates—such as saving user usernames like carlos_dev88 safely and keeping Inception's genre details in one single place. On the other hand, storing data in messy files or basic spreadsheets causes bad problems like mismatched info when updates are forgotten and broken links that leave orphan records all over the system. 
