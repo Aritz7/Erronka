@@ -32,10 +32,10 @@ Proiekturako **`admin123`** pasahitza aukeratu dugu. Pasahitz hau hautatzearen a
 Pasahitza binariora pasatzeko, **ASCII** taula erabili dugu. Taula honek karaktere bakoitzari zenbaki bat esleitzen dio, eta zenbaki hori 8 biteko talde bitarrean adierazten da.
 
 * **Adibidea (nola pasatzen den letra bat binariora):**
-  'a' letra ASCII kodera eramanda hamartarrean `97` da. Zenbaki hori binariora igarotzen badugu: 97 = 64 + 32 + 1 --> 01100001
-  Horrela, 'a' letraren adierazpen bitarra `01100001` dela lortzen dugu.
+  'a' letra ASCII kodera eramanda hamartarrean `65` da. Zenbaki hori binariora igarotzen badugu: 65 = --> 01000001
+  Horrela, 'a' letraren adierazpen bitarra `01000001` dela lortzen dugu.
 
-* **a** --> `01100001`
+* **a** --> `01000001`
 * **d** --> `01100100`
 * **m** --> `01101101`
 * **i** --> `01101001`

@@ -135,7 +135,7 @@ Cloud Computing-a Internet bidez eskuragarri dauden baliabide informatikoak (zer
   * *Adibideak:* Google Workspace (Drive, Gmail), Microsoft 365, Spotify.
 
 ### 3. Prozesamendu Mailak (Prozesamendua iturritik urrunenetik gertuenera)
-* **Cloud Computing:** Urruneko datu-zentro erraldoietan prozesatzen da Internet bidez. Biltegiratze masiboa (Big Data) eta analisi orokorrak egiteko.
+* **Cloud Computing :** Urruneko datu-zentro erraldoietan prozesatzen da Internet bidez. Biltegiratze masiboa (Big Data) eta analisi orokorrak egiteko.
 * **Fog Computing:** Tokiko sareko zerbitzarietan edo switch indartsuetan prozesatzen da (Edge eta Cloud arteko maila). Hainbat gailuren datuak biltzen eta iragazten ditu.
 * **Edge Computing:** Sareko gailu lokalean bertan prozesatzen da (router, atebide/gateway edo PLC kontrolatzailean). Latentzia oso txikia eta berehalako erantzuna lortzen da.
 * **Mist Computing:** Datuak sentsorearen edo mikrodispositivoaren barruko txipean bertan prozesatzen dira, inolako sare-gailuren mende egon gabe. Latentzia nulua eskaintzen du.
